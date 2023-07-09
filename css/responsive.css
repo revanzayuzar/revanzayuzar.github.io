@@ -1,0 +1,101 @@
+/* Revan | Van Project - Responsive */
+
+@media (max-width: 1080px) and (max-width: 720px) {
+
+    header {
+        padding: 7px 0;
+        border-bottom: 3px solid goldenrod;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .container .logo {
+        width: 10%;
+    }
+
+    .container .judul {
+        width: 90%;
+        padding-top: 6px;
+    }
+
+    .container .judul h1 {
+        font-size: 22px;
+        margin-left: 15px;
+    }
+
+    .container .navbar {
+        width: 100%;
+        text-align: center;
+        word-spacing: 15px;
+        padding-top: 10px;
+    }
+
+    .container .navbar a {
+        font-size: 12px;
+        margin-left: 0;
+        padding: 3px;
+    }
+
+    .container .img-home img {
+        margin-top: 105px;
+        border: 1.5px solid goldenrod;
+    }
+
+    .container .img-profile img {
+        margin-top: 22px;
+        border: 1.5px solid goldenrod;
+    }
+
+    .container .img-education img {
+        margin-top: 22px;
+        border: 1.5px solid goldenrod;
+    }
+
+    .container .img-about img {
+        margin-top: 22px;
+        border: 1.5px solid goldenrod;
+    }
+
+    footer {
+        margin-top: 20px;
+        padding: 7px 0;
+        border-top: 3px solid goldenrod;
+    }
+
+    .container .whatsapp a {
+        width: 75%;
+        font-size: 12px;
+        background-size: 18px;
+        padding: 3px 0;
+    }
+
+    .container .sosmed {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container .sosmed img {
+        width: 7%;
+        margin: 0 10px;
+        padding: 1.5px;
+        border: 1.5px solid goldenrod;
+        border-radius: 50%;
+    }
+
+    .container .sosmed img:hover {
+        border: 1.5px solid silver;
+    }
+
+    .container .designer {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .container .copyright {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+
+}

@@ -1,0 +1,18 @@
+Revan | Van Project - About
+
+>>> My Website <<<
+
+* Created & Design by M. Revanza Yuzar (Revan)
+
+-------------------------------------------------------
+# Website
+# Revan
+# Van Project
+# HTML
+# CSS
+# GitHub
+-------------------------------------------------------
+
+Copyright © 2023 M. Revanza Yuzar (Revan) | Van Project
+
+...
