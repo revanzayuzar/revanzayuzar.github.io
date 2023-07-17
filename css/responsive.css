@@ -1,74 +1,101 @@
 /* Revan | Van Project - Responsive */
 
 @media (max-width: 1080px) and (max-width: 720px) {
-
+    
     header {
-        padding: 7px 0;
+        padding: 0;
+        padding-bottom: 10px;
         border-bottom: 3px solid goldenrod;
+        top: 0;
+        left: 0;
+        right: 0;
     }
 
     .container {
-        width: 95%;
+        width: 98%;
     }
 
     .container .logo {
-        width: 10%;
+        width: 12%;
+        margin-top: 10px;
     }
 
     .container .judul {
-        width: 90%;
-        padding-top: 6px;
+        width: 88%;
+        padding-top: 10px;
     }
 
     .container .judul h1 {
-        font-size: 22px;
+        font-size: 25px;
         margin-left: 15px;
     }
 
     .container .navbar {
-        width: 100%;
-        text-align: center;
-        word-spacing: 15px;
+        width: 88%;
+        text-align: right;
+        word-spacing: 7px;
         padding-top: 10px;
     }
 
     .container .navbar a {
-        font-size: 12px;
+        font-size: 13px;
         margin-left: 0;
-        padding: 3px;
+        padding: 5px;
     }
 
     .container .img-home img {
-        margin-top: 105px;
+        margin-top: 100px;
         border: 1.5px solid goldenrod;
     }
 
     .container .img-profile img {
-        margin-top: 22px;
+        margin-top: 100px;
         border: 1.5px solid goldenrod;
     }
 
     .container .img-education img {
-        margin-top: 22px;
+        margin-top: 100px;
         border: 1.5px solid goldenrod;
     }
 
     .container .img-about img {
-        margin-top: 22px;
+        margin-top: 100px;
         border: 1.5px solid goldenrod;
     }
 
+    .container .my-project {
+        margin-top: 50px;
+        border: 1.5px solid goldenrod;
+    }
+
+    .container .my-project h1 {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .container .project-01 a {
+        width: 70%;
+        font-size: 15px;
+        margin: 25px auto;
+        padding: 5px 0;
+        border: 1.5px solid goldenrod;
+    }
+
+    .container .project-01 a:hover {
+        border: 1.5px solid silver;
+    }
+
     footer {
-        margin-top: 20px;
-        padding: 7px 0;
+        margin-top: 25px;
+        padding: 10px 0;
         border-top: 3px solid goldenrod;
     }
 
     .container .whatsapp a {
-        width: 75%;
-        font-size: 12px;
-        background-size: 18px;
-        padding: 3px 0;
+        width: 70%;
+        font-size: 13px;
+        background-size: 20px;
+        padding: 5px 0;
     }
 
     .container .sosmed {
@@ -77,7 +104,7 @@
     }
 
     .container .sosmed img {
-        width: 7%;
+        width: 9%;
         margin: 0 10px;
         padding: 1.5px;
         border: 1.5px solid goldenrod;
@@ -89,13 +116,13 @@
     }
 
     .container .designer {
-        font-size: 12px;
+        font-size: 13px;
         margin-bottom: 10px;
     }
 
     .container .copyright {
-        font-size: 12px;
-        letter-spacing: 0.5px;
+        font-size: 13px;
+        letter-spacing: 0.3px;
     }
 
 }

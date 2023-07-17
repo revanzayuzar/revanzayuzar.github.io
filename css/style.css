@@ -10,12 +10,21 @@
 }
 
 body {
-    background-image: url(../img/background.jpg);
-    background-color: rgb(255, 0, 0);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    /* background-image: linear-gradient(to right, rgb(255, 75, 75) 0%, rgb(75, 75, 255) 100%); */
+    background-color: rgb(25, 25, 100);
+    /* background-size: 200%; */
     font-family: Arial, Helvetica, sans-serif;
+    /* animation: gradient 15s infinite alternate; */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: right;
+    }
 }
 
 header {
@@ -87,7 +96,6 @@ header {
 .container .navbar a:hover {
     color: silver;
     border: 1px solid silver;
-    border-radius: 7px;
     transition: 0.1s;
 }
 
@@ -99,24 +107,83 @@ main {
     width: 100%;
     margin-top: 50px;
     border: 2.5px solid goldenrod;
+
+    background-image: linear-gradient(to right, rgb(255, 75, 75) 0%, rgb(75, 75, 255) 100%);
+    background-color: rgb(75, 75, 255);
+    background-size: 200%;
+    animation: gradient 15s infinite alternate;
 }
 
 .container .img-profile img {
     width: 100%;
     margin-top: 75px;
     border: 2.5px solid goldenrod;
+
+    background-image: linear-gradient(to right, rgb(255, 75, 75) 0%, rgb(75, 75, 255) 100%);
+    background-color: rgb(75, 75, 255);
+    background-size: 200%;
+    animation: gradient 15s infinite alternate;
 }
 
 .container .img-education img {
     width: 100%;
     margin-top: 75px;
     border: 2.5px solid goldenrod;
+
+    background-image: linear-gradient(to right, rgb(255, 75, 75) 0%, rgb(75, 75, 255) 100%);
+    background-color: rgb(75, 75, 255);
+    background-size: 200%;
+    animation: gradient 15s infinite alternate;
 }
 
 .container .img-about img {
     width: 100%;
     margin-top: 75px;
     border: 2.5px solid goldenrod;
+
+    background-image: linear-gradient(to right, rgb(255, 75, 75) 0%, rgb(75, 75, 255) 100%);
+    background-color: rgb(75, 75, 255);
+    background-size: 200%;
+    animation: gradient 15s infinite alternate;
+}
+
+.container .my-project {
+    width: 100%;
+    margin-top: 75px;
+    border: 2.5px solid goldenrod;
+
+    background-image: linear-gradient(to right, rgb(255, 75, 75) 0%, rgb(75, 75, 255) 100%);
+    background-color: rgb(75, 75, 255);
+    background-size: 200%;
+    animation: gradient 15s infinite alternate;
+}
+
+.container .my-project h1 {
+    color: black;
+    font-size: 33px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-top: 50px;
+}
+
+.container .project-01 a {
+    display: block;
+    width: 50%;
+    color: goldenrod;
+    background-color: black;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin: 50px auto;
+    padding: 7px 0;
+    border: 2.5px solid goldenrod;
+    border-radius: 7px;
+}
+
+.container .project-01 a:hover {
+    color: silver;
+    background-color: rgb(25, 25, 25);
+    border: 2.5px solid silver;
 }
 
 footer {
