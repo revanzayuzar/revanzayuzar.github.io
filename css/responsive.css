@@ -1,7 +1,7 @@
 /* Revan | Van Project - Responsive */
 
 @media (max-width: 1080px) and (max-width: 720px) {
-    
+
     header {
         padding: 0;
         padding-bottom: 10px;
@@ -9,6 +9,7 @@
         top: 0;
         left: 0;
         right: 0;
+        z-index: 999;
     }
 
     .container {
@@ -44,38 +45,48 @@
     }
 
     .container .img-home img {
+        width: 102%;
+        margin-left: -1%;
         margin-top: 100px;
         border: 1.5px solid goldenrod;
     }
 
     .container .img-profile img {
+        width: 102%;
+        margin-left: -1%;
         margin-top: 100px;
         border: 1.5px solid goldenrod;
     }
 
     .container .img-education img {
+        width: 102%;
+        margin-left: -1%;
         margin-top: 100px;
         border: 1.5px solid goldenrod;
     }
 
     .container .img-about img {
+        width: 102%;
+        margin-left: -1%;
         margin-top: 100px;
         border: 1.5px solid goldenrod;
     }
 
     .container .my-project {
-        margin-top: 50px;
+        width: 102%;
+        margin-left: -1%;
+        margin-top: 100px;
         border: 1.5px solid goldenrod;
     }
 
     .container .my-project h1 {
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 25px;
     }
 
     .container .project-01 a {
-        width: 70%;
-        font-size: 15px;
+        width: 50%;
+        font-size: 13px;
         margin: 25px auto;
         padding: 5px 0;
         border: 1.5px solid goldenrod;
@@ -123,6 +134,7 @@
     .container .copyright {
         font-size: 13px;
         letter-spacing: 0.3px;
+        word-spacing: -1px;
     }
 
 }
