@@ -1,140 +1,208 @@
-/* Revan | Van Project - Responsive */
+/* M. Revanza Yuzar | Responsive */
 
 @media (max-width: 1080px) and (max-width: 720px) {
 
+    body {
+        background-size: 50%;
+    }
+
     header {
-        padding: 0;
-        padding-bottom: 10px;
-        border-bottom: 3px solid goldenrod;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 999;
+        padding: 7px 0;
+        border-bottom: 3px solid gold;
     }
 
-    .container {
+    header h1 {
+        font-size: 20px;
+    }
+
+    .container-main {
         width: 98%;
+        margin-top: 50px;
+        border: 1.5px solid gold;
     }
 
-    .container .logo {
-        width: 12%;
-        margin-top: 10px;
+    .container-main .sampul {
+        padding-top: 50px;
+        padding-bottom: 150px;
     }
 
-    .container .judul {
-        width: 88%;
-        padding-top: 10px;
+    .container-main .sampul img {
+        width: 15%;
+        margin: 0;
+        margin-top: -13px;
+        margin-left: 5%;
+        margin-right: 12px;
     }
 
-    .container .judul h1 {
-        font-size: 25px;
-        margin-left: 15px;
+    .container-main .sampul p {
+        font-size: 30px;
+        letter-spacing: 1.5px;
     }
 
-    .container .navbar {
-        width: 88%;
-        text-align: right;
-        word-spacing: 7px;
-        padding-top: 10px;
-    }
-
-    .container .navbar a {
-        font-size: 13px;
-        margin-left: 0;
-        padding: 5px;
-    }
-
-    .container .img-home img {
-        width: 102%;
-        margin-left: -1%;
-        margin-top: 100px;
-        border: 1.5px solid goldenrod;
-    }
-
-    .container .img-profile img {
-        width: 102%;
-        margin-left: -1%;
-        margin-top: 100px;
-        border: 1.5px solid goldenrod;
-    }
-
-    .container .img-education img {
-        width: 102%;
-        margin-left: -1%;
-        margin-top: 100px;
-        border: 1.5px solid goldenrod;
-    }
-
-    .container .img-about img {
-        width: 102%;
-        margin-left: -1%;
-        margin-top: 100px;
-        border: 1.5px solid goldenrod;
-    }
-
-    .container .my-project {
-        width: 102%;
-        margin-left: -1%;
-        margin-top: 100px;
-        border: 1.5px solid goldenrod;
-    }
-
-    .container .my-project h1 {
-        font-size: 16px;
-        margin-top: 25px;
-    }
-
-    .container .project-01 a {
+    .container-main .profil img {
         width: 50%;
-        font-size: 13px;
-        margin: 25px auto;
-        padding: 5px 0;
-        border: 1.5px solid goldenrod;
+        margin-top: -100px;
+        border: 3px solid gold;
+        border-radius: 25px;
     }
 
-    .container .project-01 a:hover {
-        border: 1.5px solid silver;
+    .container-main .profil p#nama {    
+        font-size: 25px;
+        letter-spacing: 1.2px;
+    }
+
+    .container-main .profil p#status {
+        font-size: 20px;
+        margin-top: 33px;
+        margin-bottom: 25px;
+    }
+
+    .container-main .sosmed p.judul {
+        width: 55%;
+        font-size: 20px;
+        margin-top: 75px;
+        margin-bottom: 50px;
+    }
+
+    .container-main .sosmed a {
+        width: 70%;
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+        padding: 10px 0;
+    }
+
+    .container-main .sosmed a#website {
+        letter-spacing: 1.5px;
+        border: 2px solid gold;
+    }
+
+    .container-main .sosmed a#website:hover {
+        border: 2px solid silver;
+    }
+
+    .container-main .sosmed a#instagram {
+        background-size: 36px;
+        border: 2px solid rgb(245, 96, 64);
+    }
+
+    .container-main .sosmed a#instagram:hover {
+        border: 2px solid silver;
+    }
+
+    .container-main .sosmed a#tiktok {
+        background-size: 36px;
+        border: 2px solid black;
+    }
+
+    .container-main .sosmed a#tiktok:hover {
+        border: 2px solid silver;
+    }
+
+    .container-main .sosmed a#facebook {
+        background-size: 36px;
+        border: 2px solid rgb(24, 119, 242);
+    }
+
+    .container-main .sosmed a#facebook:hover {
+        border: 2px solid silver;
+    }
+
+    .container-main .sosmed a#github {
+        background-size: 36px;
+        border: 2px solid black;
+    }
+
+    .container-main .sosmed a#github:hover {
+        border: 2px solid silver;
+    }
+
+    .container-main .sosmed a#youtube {
+        background-size: 36px;
+        border: 2px solid red;
+    }
+
+    .container-main .sosmed a#youtube:hover {
+        border: 2px solid silver;
+    }
+
+    .container-main .kontak p.judul {
+        width: 55%;
+        font-size: 20px;
+        margin-top: 75px;
+        margin-bottom: 50px;
+    }
+
+    .container-main .kontak a {
+        width: 70%;
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+        padding: 10px 0;
+    }
+
+    .container-main .kontak a#whatsapp {
+        background-size: 36px;
+        border: 2px solid rgb(37, 211, 102);
+    }
+
+    .container-main .kontak a#whatsapp:hover {
+        border: 2px solid silver;
+    }
+
+    .container-main .kontak a#telegram {
+        background-size: 36px;
+        border: 2px solid rgb(0, 136, 204);
+        margin-bottom: 50px;
+    }
+
+    .container-main .kontak a#telegram:hover {
+        border: 2px solid silver;
+    }
+
+    .container-photo {
+        width: 98%;
+        margin-top: 50px;
+        padding-bottom: 25px;
+        border: 1.5px solid gold;
+    }
+
+    .container-photo p.judul {
+        width: 55%;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .container-photo .ruang {
+        width: 95%;
+        margin-bottom: 25px;
+        border: 1.5px solid gold;
+    }
+
+    .container-photo .ruang p {
+        font-size: 15px;
+        font-weight: normal;
+        padding: 10px;
+        border-bottom: 1.5px solid gold;
     }
 
     footer {
         margin-top: 25px;
         padding: 10px 0;
-        border-top: 3px solid goldenrod;
+        border-top: 3px solid gold;
     }
 
-    .container .whatsapp a {
-        width: 70%;
-        font-size: 13px;
-        background-size: 20px;
-        padding: 5px 0;
-    }
-
-    .container .sosmed {
-        margin-top: 10px;
+    footer p.desainer {
+        font-size: 18px;
+        letter-spacing: 3px;
         margin-bottom: 10px;
     }
 
-    .container .sosmed img {
-        width: 9%;
-        margin: 0 10px;
-        padding: 1.5px;
-        border: 1.5px solid goldenrod;
-        border-radius: 50%;
-    }
-
-    .container .sosmed img:hover {
-        border: 1.5px solid silver;
-    }
-
-    .container .designer {
+    footer p.copyright {
         font-size: 13px;
-        margin-bottom: 10px;
-    }
-
-    .container .copyright {
-        font-size: 13px;
-        letter-spacing: 0.3px;
-        word-spacing: -1px;
+        letter-spacing: 0.5px;
+        word-spacing: -0.3px;
     }
 
 }
