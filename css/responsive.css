@@ -3,16 +3,17 @@
 @media (max-width: 1080px) and (max-width: 720px) {
 
     body {
-        background-size: 50%;
+        background-size: 100%;
     }
 
     header {
-        padding: 7px 0;
+        padding: 10px;
         border-bottom: 3px solid gold;
     }
 
     header h1 {
         font-size: 20px;
+        font-weight: 400;
     }
 
     .container-main {
@@ -21,45 +22,35 @@
         border: 1.5px solid gold;
     }
 
-    .container-main .sampul {
-        padding-top: 50px;
-        padding-bottom: 150px;
-    }
-
-    .container-main .sampul img {
-        width: 15%;
-        margin: 0;
-        margin-top: -13px;
-        margin-left: 5%;
-        margin-right: 12px;
-    }
-
-    .container-main .sampul p {
-        font-size: 30px;
-        letter-spacing: 1.5px;
-    }
-
     .container-main .profil img {
         width: 50%;
-        margin-top: -100px;
+        margin-top: -110px;
         border: 3px solid gold;
-        border-radius: 25px;
+        border-radius: 50%;
     }
 
     .container-main .profil p#nama {    
-        font-size: 25px;
-        letter-spacing: 1.2px;
+        font-size: 20px;
+        letter-spacing: 1px;
     }
 
     .container-main .profil p#status {
-        font-size: 20px;
-        margin-top: 33px;
+        font-size: 18px;
+        margin-top: 25px;
         margin-bottom: 25px;
     }
 
+    .container-main .logo {
+        margin-bottom: 25px;
+        padding: 25px;
+        border: 1px solid goldenrod;
+    }
+
     .container-main .sosmed p.judul {
-        width: 55%;
+        width: 50%;
         font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
         margin-top: 75px;
         margin-bottom: 50px;
     }
@@ -67,9 +58,10 @@
     .container-main .sosmed a {
         width: 70%;
         font-size: 16px;
+        font-weight: 400;
         letter-spacing: 1px;
         margin-bottom: 25px;
-        padding: 10px 0;
+        padding: 10px;
     }
 
     .container-main .sosmed a#website {
@@ -127,8 +119,10 @@
     }
 
     .container-main .kontak p.judul {
-        width: 55%;
+        width: 50%;
         font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
         margin-top: 75px;
         margin-bottom: 50px;
     }
@@ -136,9 +130,10 @@
     .container-main .kontak a {
         width: 70%;
         font-size: 16px;
+        font-weight: 400;
         letter-spacing: 1px;
         margin-bottom: 25px;
-        padding: 10px 0;
+        padding: 10px;
     }
 
     .container-main .kontak a#whatsapp {
@@ -163,33 +158,38 @@
     .container-photo {
         width: 98%;
         margin-top: 50px;
-        padding-bottom: 25px;
         border: 1.5px solid gold;
     }
 
     .container-photo p.judul {
-        width: 55%;
+        width: 50%;
         font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
         margin-top: 50px;
         margin-bottom: 50px;
     }
 
     .container-photo .ruang {
         width: 95%;
-        margin-bottom: 25px;
-        border: 1.5px solid gold;
+        margin-bottom: 75px;
+        border: 1.5px solid black;
     }
 
     .container-photo .ruang p {
-        font-size: 15px;
+        font-size: 16px;
         font-weight: normal;
         padding: 10px;
-        border-bottom: 1.5px solid gold;
+        border-bottom: 1.5px solid black;
+    }
+
+    .container-photo .ruang img {
+        border: 15px solid silver;
     }
 
     footer {
         margin-top: 25px;
-        padding: 10px 0;
+        padding: 12px;
         border-top: 3px solid gold;
     }
 
@@ -200,8 +200,9 @@
     }
 
     footer p.copyright {
-        font-size: 13px;
-        letter-spacing: 0.5px;
+        font-size: 12px;
+        font-weight: normal;
+        letter-spacing: 0.7px;
         word-spacing: -0.3px;
     }
 
