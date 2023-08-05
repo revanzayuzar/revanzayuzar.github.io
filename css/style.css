@@ -36,6 +36,7 @@ header h1 {
     font-weight: 500;
     text-align: center;
     letter-spacing: 10px;
+    margin-left: 5px;
 }
 
 @keyframes gradient {
@@ -63,6 +64,7 @@ header h1 {
 .container-main .sampul img {
     width: 100%;
     margin: auto;
+    border-bottom: 10px solid gold;
 }
 
 .container-main .profil {
@@ -71,9 +73,9 @@ header h1 {
 
 .container-main .profil img {
     width: 33%;
-    margin-top: -181px;
+    margin-top: -188px;
     border: 5px solid gold;
-    border-radius: 22px;
+    border-radius: 25px;
 }
 
 .container-main .profil p#nama {
@@ -98,9 +100,11 @@ header h1 {
     width: 95%;
     background-color: black;
     margin: auto;
-    margin-bottom: 50px;
-    padding: 15px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 150px;
     border: 1.5px solid goldenrod;
+    border-radius: 10px;
 }
 
 .container-main .logo img {
@@ -121,7 +125,7 @@ header h1 {
     letter-spacing: 1px;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     padding-bottom: 10px;
     border-bottom: 3px solid black;
 }
@@ -248,7 +252,7 @@ header h1 {
     letter-spacing: 1px;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     padding-bottom: 10px;
     border-bottom: 3px solid black;
 }
@@ -290,6 +294,7 @@ header h1 {
     background-position: left;
     background-position-x: 10px;
     background-repeat: no-repeat;
+    margin-bottom: 100px;
     border: 3px solid rgb(0, 136, 204);
 }
 
@@ -333,10 +338,10 @@ header h1 {
 }
 
 .container-photo .ruang p {
-    color: black;
-    background-color: gold;
+    color: gold;
+    background-color: black;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 400;
     text-align: center;
     letter-spacing: 1px;
     padding: 15px;
@@ -346,7 +351,7 @@ header h1 {
 .container-photo .ruang img {
     width: 100%;
     margin-bottom: -4px;
-    border: 50px solid silver;
+    border: 50px solid goldenrod;
 }
 
 footer {
