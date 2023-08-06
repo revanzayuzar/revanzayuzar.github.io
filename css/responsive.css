@@ -44,7 +44,7 @@
 
     .container-main .profil img {
         width: 50%;
-        top: 325px;
+        top: 306px;
         left: 25%;
         border-radius: 50%;
         animation: animation-profil 1s ease-in-out infinite alternate;
@@ -305,7 +305,7 @@
     }
 
     .container-main .profil img {
-        top: 285px;
+        top: 278px;
     }
 
     .container-main .profil p#nama {
@@ -364,7 +364,7 @@
     }
 
     .container-main .profil img {
-        top: 250px;
+        top: 244px;
     }
 
     .container-main .profil p#nama {
