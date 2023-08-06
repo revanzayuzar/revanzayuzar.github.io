@@ -11,89 +11,119 @@
     box-sizing: border-box;
 }
 
+@keyframes animation-body {
+    0% {
+        background-color: rgb(248, 91, 214);
+    }
+
+    50% {
+        background-color: rgb(208, 39, 241);
+    }
+
+    100% {
+        background-color: rgb(153, 52, 247);
+    }
+}
+
 body {
-    background-image: url(../img/background.jpg);
     background-color: lightslategray;
-    background-size: 40%;
-    background-repeat: repeat;
     font-family: 'Rubik', sans-serif;
+    animation: animation-body 3s infinite alternate;
 }
 
 header {
     width: 100%;
     position: fixed;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 15px;
     border-bottom: 5px solid gold;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 999;
 }
 
 header h1 {
     color: gold;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 400;
     text-align: center;
     letter-spacing: 10px;
-    margin-left: 5px;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: left;
-    }
-
-    100% {
-        background-position: right;
-    }
+    margin-left: 8px;
 }
 
 .container-main {
     width: 80%;
-    background-color: slateblue;
+    background-color: rgb(44, 44, 100);
     margin: auto;
     margin-top: 100px;
-    border: 3px solid gold;
-
-    background-image: linear-gradient(to right, rgb(189, 140, 235) 0%, rgb(121, 183, 224) 50%, rgb(83, 224, 170) 100%);
-    background-size: 300%;
-    animation: gradient 12s infinite alternate;
+    border: 3px solid white;
+    border-radius: 11px;
 }
 
 .container-main .sampul img {
     width: 100%;
+    height: 1200px;
     margin: auto;
-    border-bottom: 10px solid gold;
+    border-radius: 11px;
 }
 
 .container-main .profil {
     text-align: center;
 }
 
+@keyframes animation-profil {
+    0% {
+        border: 5px solid rgb(251, 147, 255);
+    }
+
+    33.3% {
+        border: 5px solid rgb(247, 0, 255);
+    }
+
+    66.6% {
+        border: 5px solid rgb(219, 126, 247);
+    }
+
+    100% {
+        border: 5px solid rgb(195, 0, 255);
+    }
+}
+
 .container-main .profil img {
-    width: 33%;
-    margin-top: -188px;
-    border: 5px solid gold;
+    width: 30%;
+    position: absolute;
+    top: 860px;
+    left: 35%;
     border-radius: 25px;
+    animation: animation-profil 1s ease-in-out infinite alternate;
+}
+
+.container-main .profil img:hover {
+    border: 5px solid rgb(166, 44, 248);
+    animation: none;
 }
 
 .container-main .profil p#nama {
-    color: black;
+    color: white;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 0.7px;
-    margin-top: 10px;
+    letter-spacing: 2px;
+    margin-top: 15px;
 }
 
 .container-main .profil p#status {
-    color: darkred;
+    width: 36%;
+    color: rgb(236, 148, 253);
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0.5px;
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding-top: 10px;
+    border-top: 3px solid white;
 }
 
 .container-main .logo {
@@ -102,15 +132,32 @@ header h1 {
     margin: auto;
     margin-top: 200px;
     margin-bottom: 200px;
-    padding: 150px;
+    padding: 150px 36%;
     border: 1.5px solid goldenrod;
     border-radius: 10px;
 }
 
+@keyframes animation-logo {
+    0% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+
+    80% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
 .container-main .logo img {
     display: block;
-    width: 25%;
+    width: 100%;
     margin: auto;
+    animation: animation-logo 5s ease-in-out infinite;
 }
 
 .container-main .sosmed {
@@ -119,26 +166,26 @@ header h1 {
 
 .container-main .sosmed p.judul {
     width: 33%;
-    color: black;
+    color: white;
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 1px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 75px;
     padding-bottom: 10px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
 }
 
 .container-main .sosmed a {
     display: block;
     width: 50%;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 1.5px;
     margin: auto;
     margin-bottom: 50px;
-    padding: 12px;
+    padding: 11px;
     border-radius: 10px;
 }
 
@@ -246,26 +293,26 @@ header h1 {
 
 .container-main .kontak p.judul {
     width: 33%;
-    color: black;
+    color: white;
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 1px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 75px;
     padding-bottom: 10px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
 }
 
 .container-main .kontak a {
     display: block;
     width: 50%;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 1.5px;
     margin: auto;
     margin-bottom: 50px;
-    padding: 12px;
+    padding: 11px;
     border-radius: 10px;
 }
 
@@ -304,54 +351,116 @@ header h1 {
     border: 3px solid silver;
 }
 
-.container-photo {
+.container-logo {
     width: 80%;
-    background-color: slateblue;
+    background-color: rgb(44, 44, 100);
     margin: auto;
     margin-top: 100px;
-    border: 3px solid gold;
-
-    background-image: linear-gradient(to right, rgb(189, 140, 235) 0%, rgb(121, 183, 224) 50%, rgb(83, 224, 170) 100%);
-    background-size: 300%;
-    animation: gradient 12s infinite alternate;
+    border: 3px solid white;
+    border-radius: 11px;
 }
 
-.container-photo p.judul {
+.container-logo p.judul {
     width: 33%;
-    color: black;
+    color: white;
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
     letter-spacing: 1px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 75px;
     padding-bottom: 10px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
+}
+
+.container-logo .ruang {
+    width: 80%;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 25%;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+@keyframes animation-my-logo {
+    0% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.container-logo .ruang img {
+    display: inline-block;
+    width: 100%;
+    animation: animation-my-logo 3s ease-in-out infinite;
+}
+
+.container-photo {
+    width: 80%;
+    background-color: rgb(44, 44, 100);
+    margin: auto;
+    margin-top: 100px;
+    border: 3px solid white;
+    border-radius: 11px;
+}
+
+.container-photo p.judul {
+    width: 33%;
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid white;
 }
 
 .container-photo .ruang {
     width: 80%;
     margin: auto;
     margin-bottom: 100px;
-    border: 3px solid black;
+}
+
+@keyframes animation-title {
+    0% {
+        color: white;
+        border: 3px solid white;
+    }
+
+    100% {
+        color: rgb(223, 169, 245);
+        border: 3px solid rgb(223, 169, 245);
+    }
 }
 
 .container-photo .ruang p {
-    color: gold;
     background-color: black;
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 300;
     text-align: center;
     letter-spacing: 1px;
+    margin-bottom: 15px;
     padding: 15px;
-    border-bottom: 3px solid black;
+    border-radius: 10px;
+    animation: animation-title 0.75s ease-in-out infinite alternate;
 }
 
 .container-photo .ruang img {
     width: 100%;
-    margin-bottom: -4px;
-    border: 50px solid goldenrod;
+    border: 50px solid rgb(223, 169, 245);
+    border-radius: 10px;
 }
 
 footer {
@@ -365,7 +474,7 @@ footer {
 footer p.desainer {
     color: gold;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 22px;
+    font-size: 25px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 7px;
@@ -375,7 +484,7 @@ footer p.desainer {
 footer p.copyright {
     color: gold;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1.5px;
