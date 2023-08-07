@@ -45,19 +45,19 @@ header {
 
 @keyframes animation-rgb {
     0% {
-        color: red;
+        color: rgb(255, 0, 0);
     }
 
     33.3% {
-        color: green;
+        color: rgb(0, 255, 0);
     }
 
     66.6% {
-        color: blue;
+        color: rgb(0, 0, 255);
     }
 
     100% {
-        color: red;
+        color: rgb(255, 0, 0);
     }
 }
 
@@ -93,15 +93,31 @@ header h1 {
 
 @keyframes animation-profil {
     0% {
-        border-color: rgb(255, 255, 255);
+        box-shadow: 0 5px 12px rgba(255, 0, 0, 0.3),
+                    0 -5px 12px rgba(255, 0, 0, 0.3),
+                    5px 0 12px rgba(255, 0, 0, 0.3),
+                    -5px 0 12px rgba(255, 0, 0, 0.3);
     }
 
-    50% {
-        border-color: rgb(208, 97, 241);
+    33.3% {
+        box-shadow: 0 5px 12px rgba(0, 255, 0, 0.3),
+                    0 -5px 12px rgba(0, 255, 0, 0.3),
+                    5px 0 12px rgba(0, 255, 0, 0.3),
+                    -5px 0 12px rgba(0, 255, 0, 0.3);
+    }
+
+    66.6% {
+        box-shadow: 0 5px 12px rgba(0, 0, 255, 0.3),
+                    0 -5px 12px rgba(0, 0, 255, 0.3),
+                    5px 0 12px rgba(0, 0, 255, 0.3),
+                    -5px 0 12px rgba(0, 0, 255, 0.3);
     }
 
     100% {
-        border-color: rgb(243, 113, 255);
+        box-shadow: 0 5px 12px rgba(255, 0, 0, 0.3),
+                    0 -5px 12px rgba(255, 0, 0, 0.3),
+                    5px 0 12px rgba(255, 0, 0, 0.3),
+                    -5px 0 12px rgba(255, 0, 0, 0.3);
     }
 }
 
@@ -110,13 +126,17 @@ header h1 {
     position: absolute;
     top: 850px;
     left: 34%;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid rgba(255, 255, 255, 0.75);
     border-radius: 50%;
-    animation: animation-profil 1s infinite alternate;
+    animation: animation-profil 1.5s infinite;
 }
 
 .container-main .profil img:hover {
-    border-color: rgb(180, 97, 235);
+    border-color: rgb(177, 36, 182);
+    box-shadow: 0 5px 12px rgba(255, 255, 255, 0.5),
+                0 -5px 12px rgba(255, 255, 255, 0.5),
+                5px 0 12px rgba(255, 255, 255, 0.5),
+                -5px 0 12px rgba(255, 255, 255, 0.5);
     animation: none;
 }
 
