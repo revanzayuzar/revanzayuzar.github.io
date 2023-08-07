@@ -4,7 +4,7 @@
 
     header {
         padding: 10px;
-        border-bottom: 3px solid gold;
+        border-bottom-width: 3px;
     }
 
     header h1 {
@@ -15,7 +15,7 @@
     .container-main {
         width: 97%;
         margin-top: 60px;
-        border: 1.5px solid white;
+        border-width: 1.5px;
         border-radius: 7px;
     }
 
@@ -24,35 +24,12 @@
         border-radius: 7px;
     }
 
-    @keyframes animation-profil {
-        0% {
-            border: 3px solid rgb(251, 147, 255);
-        }
-    
-        33.3% {
-            border: 3px solid rgb(247, 0, 255);
-        }
-    
-        66.6% {
-            border: 3px solid rgb(219, 126, 247);
-        }
-    
-        100% {
-            border: 3px solid rgb(195, 0, 255);
-        }
-    }
-
     .container-main .profil img {
         width: 50%;
         top: 306px;
         left: 25%;
+        border-width: 3px;
         border-radius: 50%;
-        animation: animation-profil 1s ease-in-out infinite alternate;
-    }
-
-    .container-main .profil img:hover {
-        border: 3px solid rgb(166, 44, 248);
-        animation: none;
     }
 
     .container-main .profil p#nama {    
@@ -68,14 +45,14 @@
         letter-spacing: 0;
         margin-top: 33px;
         margin-bottom: 33px;
-        border-top: 1.5px solid white;
+        border-top-width: 1.5px;
     }
 
     .container-main .logo {
         margin-top: 150px;
         margin-bottom: 150px;
         padding: 250px 30%;
-        border: 1px solid goldenrod;
+        border-width: 1px;
         border-radius: 5px;
     }
 
@@ -90,7 +67,7 @@
         letter-spacing: 0.5px;
         margin-top: 150px;
         margin-bottom: 50px;
-        border-bottom: 2px solid white;
+        border-bottom-width: 2px;
     }
 
     .container-main .sosmed a {
@@ -104,56 +81,32 @@
 
     .container-main .sosmed a#website {
         letter-spacing: 1.5px;
-        border: 2px solid gold;
-    }
-
-    .container-main .sosmed a#website:hover {
-        border: 2px solid silver;
+        border-width: 2px;
     }
 
     .container-main .sosmed a#instagram {
         background-size: 36px;
-        border: 2px solid rgb(245, 96, 64);
-    }
-
-    .container-main .sosmed a#instagram:hover {
-        border: 2px solid silver;
+        border-width: 2px;
     }
 
     .container-main .sosmed a#tiktok {
         background-size: 36px;
-        border: 2px solid black;
-    }
-
-    .container-main .sosmed a#tiktok:hover {
-        border: 2px solid silver;
+        border-width: 2px;
     }
 
     .container-main .sosmed a#facebook {
         background-size: 36px;
-        border: 2px solid rgb(24, 119, 242);
-    }
-
-    .container-main .sosmed a#facebook:hover {
-        border: 2px solid silver;
+        border-width: 2px;
     }
 
     .container-main .sosmed a#github {
         background-size: 36px;
-        border: 2px solid black;
-    }
-
-    .container-main .sosmed a#github:hover {
-        border: 2px solid silver;
+        border-width: 2px;
     }
 
     .container-main .sosmed a#youtube {
         background-size: 36px;
-        border: 2px solid red;
-    }
-
-    .container-main .sosmed a#youtube:hover {
-        border: 2px solid silver;
+        border-width: 2px;
     }
 
     .container-main .kontak p.judul {
@@ -163,7 +116,7 @@
         letter-spacing: 0.5px;
         margin-top: 150px;
         margin-bottom: 50px;
-        border-bottom: 2px solid white;
+        border-bottom-width: 2px;
     }
 
     .container-main .kontak a {
@@ -177,27 +130,19 @@
 
     .container-main .kontak a#whatsapp {
         background-size: 36px;
-        border: 2px solid rgb(37, 211, 102);
-    }
-
-    .container-main .kontak a#whatsapp:hover {
-        border: 2px solid silver;
+        border-width: 2px;
     }
 
     .container-main .kontak a#telegram {
         background-size: 36px;
-        border: 2px solid rgb(0, 136, 204);
+        border-width: 2px;
         margin-bottom: 75px;
-    }
-
-    .container-main .kontak a#telegram:hover {
-        border: 2px solid silver;
     }
 
     .container-logo {
         width: 97%;
         margin-top: 50px;
-        border: 1.5px solid white;
+        border-width: 1.5px;
         border-radius: 7px;
     }
 
@@ -208,21 +153,21 @@
         letter-spacing: 0.5px;
         margin-top: 50px;
         margin-bottom: 50px;
-        border-bottom: 2px solid white;
+        border-bottom-width: 2px;
     }
 
     .container-logo .ruang {
         width: 95%;
         margin-bottom: 75px;
         padding: 28%;
-        border: 1.5px solid white;
+        border-width: 1.5px;
         border-radius: 7px;
     }
 
     .container-photo {
         width: 97%;
         margin-top: 50px;
-        border: 1.5px solid white;
+        border-width: 1.5px;
         border-radius: 7px;
     }
 
@@ -233,7 +178,7 @@
         letter-spacing: 0.5px;
         margin-top: 50px;
         margin-bottom: 50px;
-        border-bottom: 2px solid white;
+        border-bottom-width: 2px;
     }
 
     .container-photo .ruang {
@@ -241,36 +186,24 @@
         margin-bottom: 75px;
     }
 
-    @keyframes animation-title {
-        0% {
-            color: white;
-            border: 1.5px solid white;
-        }
-    
-        100% {
-            color: rgb(223, 169, 245);
-            border: 1.5px solid rgb(223, 169, 245);
-        }
-    }
-
     .container-photo .ruang p {
         font-size: 16px;
         font-weight: normal;
         margin-bottom: 5px;
         padding: 10px;
+        border-width: 1.5px;
         border-radius: 7px;
-        animation: animation-title 0.75s ease-in-out infinite alternate;
     }
 
     .container-photo .ruang img {
-        border: 15px solid rgb(223, 169, 245);
+        border-width: 15px;
         border-radius: 7px;
     }
 
     footer {
         margin-top: 25px;
         padding: 12px;
-        border-top: 3px solid gold;
+        border-top-width: 3px;
     }
 
     footer p.desainer {
