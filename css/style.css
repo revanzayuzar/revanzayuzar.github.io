@@ -11,155 +11,149 @@
     box-sizing: border-box;
 }
 
-@keyframes animation-body {
-    0% {
-        background-color: rgb(240, 116, 213);
-    }
-
-    50% {
-        background-color: rgb(219, 108, 241);
-    }
-
-    100% {
-        background-color: rgb(178, 109, 243);
-    }
-}
-
 body {
-    background-color: lightslategray;
+    background-color: rgb(80, 0, 0);
     font-family: 'Rubik', sans-serif;
-    animation: animation-body 3s infinite alternate;
 }
 
 header {
+    display: flex;
+    align-items: center;
     width: 100%;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 15px;
-    border-bottom: 5px solid gold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 0;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
     top: 0;
     left: 0;
     right: 0;
     z-index: 999;
 }
 
-@keyframes animation-rgb {
+header img {
+    width: 4%;
+    margin-left: 1%;
+}
+
+@keyframes animation-h1 {
     0% {
-        color: rgba(255, 0, 0, 0.9);
+        text-shadow: 0 0 10px rgba(255, 0, 0, 0.9), 0 0 7px rgba(255, 0, 0, 0.9);
     }
 
-    33.3% {
-        color: rgba(0, 255, 0, 0.8);
-    }
-
-    66.6% {
-        color: rgba(0, 0, 255, 1);
+    50% {
+        text-shadow: 0 0 10px rgba(0, 0, 255, 1), 0 0 7px rgba(0, 0, 255, 1);
     }
 
     100% {
-        color: rgba(255, 0, 0, 0.9);
+        text-shadow: 0 0 10px rgba(255, 0, 0, 0.9), 0 0 7px rgba(255, 0, 0, 0.9);
     }
 }
 
 header h1 {
-    color: gold;
-    font-size: 25px;
+    width: 90%;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
-    letter-spacing: 10px;
-    margin-left: 8px;
-    animation: animation-rgb 1.5s infinite;
+    letter-spacing: 7.5px;
+    margin-left: 4px;
+    animation: animation-h1 2.5s infinite;
+    animation-timing-function: ease-in-out;
 }
 
-.container-main {
-    width: 80%;
-    background-color: rgb(44, 44, 100);
-    margin: auto;
-    margin-top: 100px;
-    border: 3px solid white;
-    border-radius: 11px;
+.hero {
+    height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.container-main .sampul img {
-    width: 100%;
-    height: 1200px;
-    margin: auto;
-    border-radius: 11px;
-}
-
-.container-main .profil {
+.hero .profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     text-align: center;
 }
 
 @keyframes animation-profil {
     0% {
-        box-shadow: 0 5px 12px rgba(255, 0, 0, 0.6),
-                    0 -5px 12px rgba(255, 0, 0, 0.6),
-                    5px 0 12px rgba(255, 0, 0, 0.6),
-                    -5px 0 12px rgba(255, 0, 0, 0.6);
+        box-shadow: 0 0 25px rgba(255, 0, 0, 1);
     }
 
-    33.3% {
-        box-shadow: 0 5px 12px rgba(0, 255, 0, 0.5),
-                    0 -5px 12px rgba(0, 255, 0, 0.5),
-                    5px 0 12px rgba(0, 255, 0, 0.5),
-                    -5px 0 12px rgba(0, 255, 0, 0.5);
-    }
-
-    66.6% {
-        box-shadow: 0 5px 12px rgba(0, 0, 255, 0.7),
-                    0 -5px 12px rgba(0, 0, 255, 0.7),
-                    5px 0 12px rgba(0, 0, 255, 0.7),
-                    -5px 0 12px rgba(0, 0, 255, 0.7);
+    50% {
+        box-shadow: 0 0 25px rgba(0, 0, 255, 1);
     }
 
     100% {
-        box-shadow: 0 5px 12px rgba(255, 0, 0, 0.6),
-                    0 -5px 12px rgba(255, 0, 0, 0.6),
-                    5px 0 12px rgba(255, 0, 0, 0.6),
-                    -5px 0 12px rgba(255, 0, 0, 0.6);
+        box-shadow: 0 0 25px rgba(255, 0, 0, 1);
     }
 }
 
-.container-main .profil img {
-    width: 32%;
-    position: absolute;
-    top: 850px;
-    left: 34%;
-    border: 5px solid rgba(255, 255, 255, 0.75);
+.hero .profil img {
+    width: 22%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
     border-radius: 50%;
-    animation: animation-profil 1.5s infinite;
+    animation: animation-profil 5s infinite;
+    animation-timing-function: ease-in-out;
 }
 
-.container-main .profil img:hover {
-    border-color: rgb(225, 90, 230);
-    box-shadow: 0 5px 12px rgba(255, 255, 255, 0.5),
-                0 -5px 12px rgba(255, 255, 255, 0.5),
-                5px 0 12px rgba(255, 255, 255, 0.5),
-                -5px 0 12px rgba(255, 255, 255, 0.5);
+.hero .profil img:hover {
+    border-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 0 36px rgba(255, 215, 0, 0.75);
     animation: none;
 }
 
-.container-main .profil p#nama {
+.hero .profil h2 {
     color: white;
-    font-size: 28px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 15px;
 }
 
-.container-main .profil p#status {
-    width: 36%;
-    color: rgb(236, 148, 253);
-    font-size: 22px;
+.hero .profil h2#nama {
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(0, 0, 255, 1), 0 0 7px rgba(0, 0, 255, 1);
+}
+
+.hero .profil h2#status {
+    font-size: 18px;
     font-weight: 400;
-    letter-spacing: 0.5px;
+}
+
+.container {
+    background-color: rgb(80, 0, 0);
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+@keyframes animation-container-01 {
+    0% {
+        box-shadow: 0 0 25px rgba(0, 0, 255, 1);
+    }
+
+    50% {
+        box-shadow: 0 0 25px rgba(150, 0, 180, 1);
+    }
+
+    100% {
+        box-shadow: 0 0 25px rgba(0, 0, 255, 1);
+    }
+}
+
+.container-01 {
+    width: 80%;
+    background-color: rgb(80, 0, 0);
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-top: 10px;
-    border-top: 3px solid white;
+    margin-top: 75px;
+    padding: 2.5%;
+    border: 2.5px solid white;
+    border-radius: 7px;
+    animation: animation-container-01 5s infinite;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes animation-border-logo {
@@ -176,68 +170,96 @@ header h1 {
     }
 }
 
-.container-main .logo {
-    width: 95%;
+.container-01 .logo-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
-    margin: auto;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    padding: 150px 36%;
+    padding: 15% 40%;
     border: 1.5px solid goldenrod;
-    border-radius: 10px;
-    animation: animation-border-logo 1s infinite;
+    border-radius: 7px;
+    animation: animation-border-logo 3s infinite;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes animation-logo {
     0% {
         opacity: 0;
-        transform: scale(0.7);
+        transform: scale(0.5) translateY(-20%);
     }
 
-    80% {
+    25% {
+        opacity: 0.36;
+        transform: scale(0.5) translateY(0);
+    }
+
+    75% {
         opacity: 1;
         transform: scale(1);
     }
 
     100% {
         opacity: 0;
+        transform: scale(0.95);
     }
 }
 
-.container-main .logo img {
+.container-01 .logo-main img {
     display: block;
     width: 100%;
-    margin: auto;
-    animation: animation-logo 5s ease-in-out infinite;
+    animation: animation-logo 6s infinite;
+    animation-timing-function: ease-in-out;
 }
 
-.container-main .sosmed {
-    text-align: center;
-}
-
-.container-main .sosmed p.judul {
-    width: 33%;
+.container-02 h2 {
+    width: 20%;
     color: white;
-    font-size: 28px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin: auto;
-    margin-top: 200px;
-    margin-bottom: 75px;
-    padding-bottom: 10px;
-    border-bottom: 3px solid white;
-}
-
-.container-main .sosmed a {
-    display: block;
-    width: 50%;
     font-size: 20px;
     font-weight: 400;
-    letter-spacing: 1.5px;
+    text-align: center;
     margin: auto;
     margin-bottom: 50px;
-    padding: 11px;
-    border-radius: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1.5px solid white;
+}
+
+.container-02 a {
+    display: block;
+    width: 26%;
+    color: goldenrod;
+    background-color: black;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 36px;
+    padding: 7px;
+    border-width: 2.5px;
+    border-style: solid;
+    border-color: goldenrod;
+    border-radius: 7px;
+}
+
+.container-02 a:hover {
+    text-shadow: 0 0 11px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 22px rgba(255, 255, 255, 0.5);
+    transition-property: all;
+    transition-duration: 0.25s;
+}
+
+.container-02 .sosmed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container-02 .kontak {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 @keyframes animation-my-website {
@@ -257,211 +279,134 @@ header h1 {
     }
 }
 
-.container-main .sosmed a#website {
-    color: goldenrod;
-    background-color: black;
-    letter-spacing: 2px;
-    border: 3px solid goldenrod;
+.container-02 a#website {
+    background-image: url(../img/revan-logo-01.png);
     animation: animation-my-website 3s infinite;
+    animation-timing-function: ease-in-out;
 }
 
-.container-main .sosmed a#website:hover {
+.container-02 a#website:hover {
     color: silver;
     background-color: rgb(25, 25, 25);
     border-color: silver;
     animation: none;
 }
 
-.container-main .sosmed a#instagram {
+.container-02 a#instagram {
     color: rgb(245, 96, 64);
     background-image: url(../img/instagram.png);
     background-color: white;
-    background-size: 44px;
-    background-position: left;
-    background-position-x: 10px;
-    background-repeat: no-repeat;
-    border: 3px solid rgb(245, 96, 64);
+    border-color: rgb(245, 96, 64);
 }
 
-.container-main .sosmed a#instagram:hover {
+.container-02 a#instagram:hover {
     color: silver;
     background-color: rgb(25, 25, 25);
     border-color: silver;
 }
 
-.container-main .sosmed a#tiktok {
+.container-02 a#tiktok {
     color: black;
     background-image: url(../img/tiktok.png);
     background-color: white;
-    background-size: 44px;
-    background-position: left;
-    background-position-x: 10px;
-    background-repeat: no-repeat;
-    border: 3px solid black;
+    border-color: black;
 }
 
-.container-main .sosmed a#tiktok:hover {
+.container-02 a#tiktok:hover {
     color: silver;
     background-color: rgb(25, 25, 25);
     border-color: silver;
 }
 
-.container-main .sosmed a#facebook {
+.container-02 a#facebook {
     color: rgb(24, 119, 242);
     background-image: url(../img/facebook.png);
     background-color: white;
-    background-size: 44px;
-    background-position: left;
-    background-position-x: 10px;
-    background-repeat: no-repeat;
-    border: 3px solid rgb(24, 119, 242);
+    border-color: rgb(24, 119, 242);
 }
 
-.container-main .sosmed a#facebook:hover {
+.container-02 a#facebook:hover {
     color: silver;
     background-color: rgb(25, 25, 25);
     border-color: silver;
 }
 
-.container-main .sosmed a#github {
+.container-02 a#github {
     color: black;
     background-image: url(../img/github.png);
     background-color: white;
-    background-size: 44px;
-    background-position: left;
-    background-position-x: 10px;
-    background-repeat: no-repeat;
-    border: 3px solid black;
+    border-color: black;
 }
 
-.container-main .sosmed a#github:hover {
+.container-02 a#github:hover {
     color: silver;
     background-color: rgb(25, 25, 25);
     border-color: silver;
 }
 
-.container-main .sosmed a#youtube {
+.container-02 a#youtube {
     color: red;
     background-image: url(../img/youtube.png);
     background-color: white;
-    background-size: 44px;
-    background-position: left;
-    background-position-x: 10px;
-    background-repeat: no-repeat;
-    border: 3px solid red;
+    border-color: red;
 }
 
-.container-main .sosmed a#youtube:hover {
+.container-02 a#youtube:hover {
     color: silver;
     background-color: rgb(25, 25, 25);
     border-color: silver;
 }
 
-.container-main .kontak {
-    text-align: center;
-}
-
-.container-main .kontak p.judul {
-    width: 33%;
-    color: white;
-    font-size: 28px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin: auto;
-    margin-top: 200px;
-    margin-bottom: 75px;
-    padding-bottom: 10px;
-    border-bottom: 3px solid white;
-}
-
-.container-main .kontak a {
-    display: block;
-    width: 50%;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
-    margin: auto;
-    margin-bottom: 50px;
-    padding: 11px;
-    border-radius: 10px;
-}
-
-.container-main .kontak a#whatsapp {
+.container-02 a#whatsapp {
     color: rgb(37, 211, 102);
     background-image: url(../img/whatsapp.png);
     background-color: white;
-    background-size: 44px;
-    background-position: left;
-    background-position-x: 10px;
-    background-repeat: no-repeat;
-    border: 3px solid rgb(37, 211, 102);
+    border-color: rgb(37, 211, 102);
 }
 
-.container-main .kontak a#whatsapp:hover {
+.container-02 a#whatsapp:hover {
     color: silver;
     background-color: rgb(25, 25, 25);
     border-color: silver;
 }
 
-.container-main .kontak a#telegram {
+.container-02 a#telegram {
     color: rgb(0, 136, 204);
     background-image: url(../img/telegram.png);
     background-color: white;
-    background-size: 44px;
-    background-position: left;
-    background-position-x: 10px;
-    background-repeat: no-repeat;
-    margin-bottom: 100px;
-    border: 3px solid rgb(0, 136, 204);
+    border-color: rgb(0, 136, 204);
 }
 
-.container-main .kontak a#telegram:hover {
+.container-02 a#telegram:hover {
     color: silver;
     background-color: rgb(25, 25, 25);
     border-color: silver;
 }
 
-.container-logo {
-    width: 80%;
-    background-color: rgb(44, 44, 100);
-    margin: auto;
-    margin-top: 100px;
-    border: 3px solid white;
-    border-radius: 11px;
+.container-02 .container-logo {
+    display: flex;
+    justify-content: space-around;
 }
 
-.container-logo p.judul {
-    width: 33%;
-    color: white;
-    font-size: 28px;
-    font-weight: 400;
-    text-align: center;
-    letter-spacing: 1px;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 75px;
-    padding-bottom: 10px;
-    border-bottom: 3px solid white;
-}
-
-.container-logo .ruang {
-    width: 80%;
+.container-02 .ruang-logo {
+    width: 30%;
     background-color: black;
-    margin: auto;
-    margin-bottom: 100px;
-    padding: 25%;
-    border: 3px solid white;
-    border-radius: 10px;
+    padding: 5%;
+    border: 1.5px solid goldenrod;
+    border-radius: 7px;
     animation: animation-border-logo 1.5s infinite;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes animation-my-logo {
     0% {
         opacity: 0;
+        transform: scale(0.95);
     }
 
-    80% {
+    75% {
         opacity: 1;
+        transform: scale(1);
     }
 
     100% {
@@ -469,116 +414,97 @@ header h1 {
     }
 }
 
-.container-logo .ruang img {
-    display: inline-block;
+.container-02 .ruang-logo img {
+    display: block;
     width: 100%;
-    animation: animation-my-logo 3s ease-in-out infinite;
+    animation: animation-my-logo 3s infinite;
+    animation-timing-function: ease-in-out;
 }
 
-.container-photo {
-    width: 80%;
-    background-color: rgb(44, 44, 100);
-    margin: auto;
-    margin-top: 100px;
-    border: 3px solid white;
-    border-radius: 11px;
+.container-02 .container-photo {
+    display: flex;
+    justify-content: space-around;
 }
 
-.container-photo p.judul {
-    width: 33%;
-    color: white;
-    font-size: 28px;
-    font-weight: 400;
-    text-align: center;
-    letter-spacing: 1px;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 75px;
-    padding-bottom: 10px;
-    border-bottom: 3px solid white;
+.container-02 .ruang-photo {
+    width: 30%;
 }
 
-.container-photo .ruang {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 100px;
-}
-
-@keyframes animation-title {
+@keyframes animation-judul-photo {
     0% {
-        color: rgb(223, 169, 245);
-        border-color: rgb(223, 169, 245);
-    }
-
-    50% {
         color: white;
         border-color: white;
     }
 
-    100% {
-        color: rgb(223, 169, 245);
-        border-color: rgb(223, 169, 245);
-    }
-}
-
-.container-photo .ruang p {
-    color: rgb(223, 169, 245);
-    background-color: black;
-    font-size: 22px;
-    font-weight: 300;
-    text-align: center;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-    padding: 15px;
-    border: 3px solid rgb(223, 169, 245);
-    border-radius: 10px;
-    animation: animation-title 1.5s infinite;
-}
-
-@keyframes animation-border-photo {
-    0% {
-        border-color: rgb(223, 169, 245);
-    }
-
     50% {
+        color: rgb(100, 100, 255);
+        border-color: rgb(100, 100, 255);
+        box-shadow: 0 0 3px rgba(255, 255, 255, 0.75);
+    }
+
+    100% {
+        color: white;
+        border-color: white;
+    }
+}
+
+.container-02 .ruang-photo h3 {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1.5px solid white;
+    border-radius: 7px;
+    animation: animation-judul-photo 5s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animation-photo {
+    0% {
         border-color: white;
     }
 
+    50% {
+        border-color: rgb(100, 100, 255);
+        box-shadow: 0 0 11px rgba(255, 255, 255, 0.75);
+    }
+
     100% {
-        border-color: rgb(223, 169, 245);
+        border-color: white;
     }
 }
 
-.container-photo .ruang img {
+.container-02 .ruang-photo img {
+    display: block;
     width: 100%;
-    border: 50px solid rgb(223, 169, 245);
-    border-radius: 10px;
-    animation: animation-border-photo 1.5s infinite;
+    border: 7px solid white;
+    animation: animation-photo 5s infinite;
+    animation-timing-function: ease-in-out;
 }
 
 footer {
     width: 100%;
+    color: white;
     background-color: black;
-    margin-top: 50px;
-    padding: 15px;
-    border-top: 5px solid gold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px 0;
+    border-top: 1.5px solid rgba(255, 255, 255, 0.5);
 }
 
-footer p.desainer {
-    color: gold;
+footer p#desainer {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 23px;
-    text-align: center;
-    text-transform: uppercase;
+    font-size: 20px;
     letter-spacing: 7px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
-footer p.copyright {
-    color: gold;
-    font-size: 16px;
+footer p#copyright {
+    font-size: 15px;
     font-weight: 300;
-    text-align: center;
-    text-transform: uppercase;
     letter-spacing: 1.5px;
 }

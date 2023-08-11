@@ -1,222 +1,192 @@
 /* M. Revanza Yuzar | Responsive */
 
-@media (max-width: 425px) {
+@media (max-width: 1024px) {
+
+    header h1 {
+        font-size: 16px;
+    }
+
+    .hero .profil h2#nama {
+        font-size: 25px;
+    }
+
+    .hero .profil h2#status {
+        font-size: 13px;
+    }
+
+    .container-02 h2 {
+        font-size: 18px;
+    }
+
+    .container-02 a {
+        font-size: 14px;
+    }
+
+    .container-02 .ruang-photo h3 {
+        font-size: 14px;
+    }
+
+    footer p#desainer {
+        font-size: 18px;
+    }
+
+    footer p#copyright {
+        font-size: 13px;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
 
     header {
-        padding: 10px;
-        border-bottom-width: 3px;
+        border-bottom-width: 1px;
+    }
+
+    header img {
+        width: 6%;
     }
 
     header h1 {
-        font-size: 20px;
-        font-weight: 400;
+        width: 86%;
+    }
+    
+    .hero .profil img {
+        width: 36%;
     }
 
-    .container-main {
-        width: 97%;
-        margin-top: 60px;
-        border-width: 1.5px;
-        border-radius: 7px;
+    .container-01 .logo-main {
+        height: 100vh;
+        padding: 33%;
     }
 
-    .container-main .sampul img {
-        height: auto;
-        border-radius: 7px;
+    .container-02 h2 {
+        width: 27%;
     }
 
-    .container-main .profil img {
-        width: 50%;
-        top: 306px;
-        left: 25%;
-        border-width: 3px;
-        border-radius: 50%;
+    .container-02 a {
+        width: 38%;
     }
 
-    .container-main .profil p#nama {    
-        font-size: 20px;
-        letter-spacing: 0.5px;
-        margin-top: 10px;
+    .container-02 .container-logo {
+        flex-wrap: wrap;
     }
 
-    .container-main .profil p#status {
-        width: 66%;
-        font-size: 18px;
-        font-weight: 300;
-        letter-spacing: 0;
-        margin-top: 33px;
-        margin-bottom: 33px;
-        border-top-width: 1.5px;
-    }
-
-    .container-main .logo {
-        margin-top: 150px;
-        margin-bottom: 150px;
-        padding: 250px 30%;
-        border-width: 1px;
-        border-radius: 5px;
-    }
-
-    .container-main .logo img {
-        width: 100%;
-    }
-
-    .container-main .sosmed p.judul {
-        width: 50%;
-        font-size: 20px;
-        font-weight: 400;
-        letter-spacing: 0.5px;
-        margin-top: 150px;
-        margin-bottom: 50px;
-        border-bottom-width: 2px;
-    }
-
-    .container-main .sosmed a {
-        width: 70%;
-        font-size: 16px;
-        font-weight: 400;
-        letter-spacing: 1px;
+    .container-02 .ruang-logo {
+        width: 45%;
         margin-bottom: 25px;
-        padding: 10px;
     }
 
-    .container-main .sosmed a#website {
-        letter-spacing: 1.5px;
-        border-width: 2px;
+    .container-02 .container-photo {
+        flex-wrap: wrap;
     }
 
-    .container-main .sosmed a#instagram {
-        background-size: 36px;
-        border-width: 2px;
-    }
-
-    .container-main .sosmed a#tiktok {
-        background-size: 36px;
-        border-width: 2px;
-    }
-
-    .container-main .sosmed a#facebook {
-        background-size: 36px;
-        border-width: 2px;
-    }
-
-    .container-main .sosmed a#github {
-        background-size: 36px;
-        border-width: 2px;
-    }
-
-    .container-main .sosmed a#youtube {
-        background-size: 36px;
-        border-width: 2px;
-    }
-
-    .container-main .kontak p.judul {
-        width: 50%;
-        font-size: 20px;
-        font-weight: 400;
-        letter-spacing: 0.5px;
-        margin-top: 150px;
-        margin-bottom: 50px;
-        border-bottom-width: 2px;
-    }
-
-    .container-main .kontak a {
-        width: 70%;
-        font-size: 16px;
-        font-weight: 400;
-        letter-spacing: 1px;
+    .container-02 .ruang-photo {
+        width: 45%;
         margin-bottom: 25px;
-        padding: 10px;
-    }
-
-    .container-main .kontak a#whatsapp {
-        background-size: 36px;
-        border-width: 2px;
-    }
-
-    .container-main .kontak a#telegram {
-        background-size: 36px;
-        border-width: 2px;
-        margin-bottom: 75px;
-    }
-
-    .container-logo {
-        width: 97%;
-        margin-top: 50px;
-        border-width: 1.5px;
-        border-radius: 7px;
-    }
-
-    .container-logo p.judul {
-        width: 50%;
-        font-size: 20px;
-        font-weight: 400;
-        letter-spacing: 0.5px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        border-bottom-width: 2px;
-    }
-
-    .container-logo .ruang {
-        width: 95%;
-        margin-bottom: 75px;
-        padding: 28%;
-        border-width: 1.5px;
-        border-radius: 7px;
-    }
-
-    .container-photo {
-        width: 97%;
-        margin-top: 50px;
-        border-width: 1.5px;
-        border-radius: 7px;
-    }
-
-    .container-photo p.judul {
-        width: 50%;
-        font-size: 20px;
-        font-weight: 400;
-        letter-spacing: 0.5px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        border-bottom-width: 2px;
-    }
-
-    .container-photo .ruang {
-        width: 95%;
-        margin-bottom: 75px;
-    }
-
-    .container-photo .ruang p {
-        font-size: 16px;
-        font-weight: normal;
-        margin-bottom: 5px;
-        padding: 10px;
-        border-width: 1.5px;
-        border-radius: 7px;
-    }
-
-    .container-photo .ruang img {
-        border-width: 15px;
-        border-radius: 7px;
     }
 
     footer {
-        margin-top: 25px;
-        padding: 12px;
-        border-top-width: 3px;
+        border-top-width: 1px;
     }
 
-    footer p.desainer {
-        font-size: 18px;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .hero .profil h2#nama {
+        font-size: 22px;
+        font-weight: 400;
+        margin-top: 15px;
+        margin-bottom: 7px;
+    }
+
+    .container-02 h2 {
+        width: 33%;
+    }
+
+    .container-02 a {
+        width: 45%;
+    }
+
+}
+
+
+
+@media (max-width: 425px) {
+
+    header img {
+        width: 9%;
+    }
+
+    header h1 {
+        width: 80%;
+    }
+
+    .hero .profil img {
+        width: 66%;
+    }
+
+    .hero .profil h2#nama {
+        font-size: 28px;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .hero .profil h2#status {
+        font-size: 15px;
+    }
+
+    .container {
+        padding-bottom: 25px;
+    }
+
+    .container-01 {
+        width: 93%;
+        margin-top: 50px;
+        border-width: 2px;
+    }
+
+    .container-01 .logo-main {
+        padding: 30%;
+    }
+
+    .container-02 h2 {
+        width: 38%;
+    }
+
+    .container-02 a {
+        width: 70%;
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .container-02 .kontak {
+        flex-wrap: wrap;
+    }
+
+    .container-02 .ruang-logo {
+        width: 90%;
+        margin-bottom: 50px;
+        padding: 25%;
+    }
+
+    .container-02 .ruang-photo {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    footer p#desainer {
         letter-spacing: 3px;
-        margin-bottom: 12px;
     }
 
-    footer p.copyright {
+    footer p#copyright {
         font-size: 12px;
-        font-weight: normal;
-        letter-spacing: 0.7px;
-        word-spacing: -0.3px;
+        letter-spacing: 0.5px;
     }
 
 }
@@ -225,61 +195,21 @@
 
 @media (max-width: 375px) {
 
-    header {
-        padding: 8px;
+    .hero .profil h2#nama {
+        font-size: 25px;
     }
 
-    header h1 {
-        font-size: 18px;
+    .hero .profil h2#status {
+        font-size: 14px;
     }
 
-    .container-main {
-        margin-top: 52px;
+    .container-02 h2 {
+        width: 42%;
+        font-size: 17px;
     }
 
-    .container-main .profil img {
-        top: 278px;
-    }
-
-    .container-main .profil p#nama {
-        font-size: 18px;
-    }
-
-    .container-main .profil p#status {
-        width: 65%;
-        font-size: 16px;
-    }
-
-    .container-main .logo {
-        padding: 225px 30%;
-    }
-
-    .container-main .sosmed p.judul {
-        font-size: 18px;
-    }
-
-    .container-main .kontak p.judul {
-        font-size: 18px;
-    }
-
-    .container-logo p.judul {
-        font-size: 18px;
-    }
-
-    .container-photo p.judul {
-        font-size: 18px;
-    }
-
-    .container-photo .ruang p {
-        font-size: 15px;
-    }
-
-    footer p.desainer {
-        font-size: 16px;
-    }
-
-    footer p.copyright {
-        font-size: 11px;
+    .container-02 a {
+        width: 75%;
     }
 
 }
@@ -289,69 +219,33 @@
 @media (max-width: 320px) {
 
     header h1 {
+        font-size: 15px;
+    }
+
+    .hero .profil h2#nama {
+        font-size: 22px;
+    }
+
+    .hero .profil h2#status {
+        font-size: 13px;
+    }
+
+    .container-02 h2 {
+        width: 46%;
         font-size: 16px;
     }
 
-    .container-main {
-        margin-top: 50px;
-    }
-
-    .container-main .profil img {
-        top: 244px;
-    }
-
-    .container-main .profil p#nama {
-        font-size: 16px;
-    }
-
-    .container-main .profil p#status {
+    .container-02 a {
+        width: 80%;
         font-size: 14px;
     }
 
-    .container-main .logo {
-        padding: 200px 30%;
-    }
-
-    .container-main .sosmed p.judul {
-        width: 55%;
+    footer p#desainer {
         font-size: 16px;
     }
 
-    .container-main .sosmed a {
-        width: 75%;
-        font-size: 14px;
+    footer p#copyright {
+        font-size: 11px;
     }
-
-    .container-main .kontak p.judul {
-        width: 55%;
-        font-size: 16px;
-    }
-
-    .container-main .kontak a {
-        width: 75%;
-        font-size: 14px;
-    }
-
-    .container-logo p.judul {
-        width: 55%;
-        font-size: 16px;
-    }
-
-    .container-photo p.judul {
-        width: 55%;
-        font-size: 16px;
-    }
-
-    .container-photo .ruang p {
-        font-size: 14px;
-    }
-
-    footer p.desainer {
-        font-size: 14px;
-    }
-
-    footer p.copyright {
-        font-size: 10px;
-    }
-
+    
 }
