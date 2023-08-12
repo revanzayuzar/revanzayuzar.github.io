@@ -23,7 +23,7 @@ header {
     width: 100%;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 3px 15px;
+    padding: 5px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
     top: 0;
     left: 0;
@@ -38,27 +38,34 @@ header img {
 
 @keyframes animation-h1 {
     0% {
-        text-shadow: 0 0 11px rgba(255, 0, 0, 1);
+        text-shadow: 0 0 20px rgba(255, 0, 0, 1);
     }
 
     50% {
-        text-shadow: 0 0 11px rgba(0, 0, 255, 1);
+        text-shadow: 0 0 20px rgba(0, 0, 255, 1);
     }
 
     100% {
-        text-shadow: 0 0 11px rgba(255, 0, 0, 1);
+        text-shadow: 0 0 20px rgba(255, 0, 0, 1);
     }
 }
 
 header h1 {
-    display: inline;
+    display: inline-block;
     color: rgba(255, 255, 255, 1);
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
     font-weight: 300;
     letter-spacing: 5px;
-    animation: animation-h1 2.5s infinite;
+    margin-right: 25px;
+    animation: animation-h1 3s infinite;
     animation-timing-function: ease-in-out;
+}
+
+header h1:hover {
+    color: gold;
+    transition: 0.3s;
+    animation: none;
 }
 
 .hero {
@@ -74,21 +81,21 @@ header h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 111vh;
+    height: 105vh;
     text-align: center;
 }
 
 @keyframes animation-profil {
     0% {
-        box-shadow: 0 0 36px rgba(255, 0, 0, 1);
+        box-shadow: 0 0 50px rgba(255, 0, 0, 0.9);
     }
 
     50% {
-        box-shadow: 0 0 36px rgba(0, 0, 255, 1);
+        box-shadow: 0 0 50px rgba(0, 0, 255, 0.9);
     }
 
     100% {
-        box-shadow: 0 0 36px rgba(255, 0, 0, 1);
+        box-shadow: 0 0 50px rgba(255, 0, 0, 0.9);
     }
 }
 
@@ -97,13 +104,13 @@ header h1 {
     height: 280px;
     border: 5px solid rgba(255, 255, 255, 0.5);
     border-radius: 50%;
-    animation: animation-profil 5s infinite;
+    animation: animation-profil 6s infinite;
     animation-timing-function: ease-in-out;
 }
 
 .hero .profil img:hover {
     border-color: rgba(255, 255, 255, 0.75);
-    box-shadow: 0 0 36px rgba(255, 215, 0, 1);
+    box-shadow: 0 0 50px rgba(255, 215, 0, 1);
     animation: none;
 }
 
@@ -215,7 +222,7 @@ header h1 {
 .container-02 h2 {
     width: 22%;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     text-align: center;
     margin: auto;
@@ -248,7 +255,7 @@ header h1 {
 
 .container-02 a:hover {
     text-shadow: 0 0 11px rgba(255, 255, 255, 0.5);
-    box-shadow: 0 0 22px rgba(255, 255, 255, 0.75);
+    box-shadow: 0 0 33px rgba(255, 255, 255, 0.75);
     transition-property: all;
     transition-duration: 0.25s;
 }
@@ -439,8 +446,7 @@ header h1 {
     }
 
     50% {
-        color: rgb(100, 100, 200);
-        border-color: rgb(100, 100, 200);
+        box-shadow: 0 0 22px blue;
     }
 
     100% {
@@ -470,8 +476,7 @@ header h1 {
     }
 
     50% {
-        border-color: rgb(100, 100, 200);
-        box-shadow: 0 0 15px rgba(255, 255, 255, 0.75);
+        box-shadow: 0 0 22px blue;
     }
 
     100% {
