@@ -15,11 +15,17 @@
     }
 
     .container-02 h2 {
+        width: 26%;
         font-size: 18px;
     }
 
     .container-02 a {
+        width: 38%;
         font-size: 14px;
+    }
+
+    .container-02 .sosmed {
+        justify-content: space-evenly;
     }
 
     .container-02 .ruang-photo h3 {
@@ -51,25 +57,31 @@
     header h1 {
         width: 86%;
     }
-    
-    .hero .profil img {
-        width: 36%;
-    }
 
     .container-01 .logo-main {
-        height: 100vh;
+        height: 80vh;
         padding: 33%;
     }
 
     .container-02 h2 {
-        width: 27%;
+        width: 33%;
+        margin-top: 15px;
     }
 
     .container-02 a {
-        width: 38%;
+        width: 48%;
+    }
+
+    .container-02 .sosmed {
+        justify-content: space-between;
+    }
+
+    .container-02 .kontak {
+        justify-content: space-between;
     }
 
     .container-02 .container-logo {
+        justify-content: space-around;
         flex-wrap: wrap;
     }
 
@@ -79,6 +91,7 @@
     }
 
     .container-02 .container-photo {
+        justify-content: space-around;
         flex-wrap: wrap;
     }
 
@@ -95,21 +108,42 @@
 
 
 
-@media (max-width: 600px) {
-
-    .hero .profil h2#nama {
-        font-size: 22px;
-        font-weight: 400;
-        margin-top: 15px;
-        margin-bottom: 7px;
-    }
+@media (max-width: 550px) {
 
     .container-02 h2 {
-        width: 33%;
+        width: 45%;
     }
 
     .container-02 a {
-        width: 45%;
+        width: 65%;
+    }
+
+    .container-02 .sosmed {
+        justify-content: center;
+    }
+
+    .container-02 .kontak {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container-02 .ruang-logo {
+        width: 82%;
+        margin-bottom: 50px;
+        padding: 20%;
+    }
+
+    .container-02 .container-logo {
+        justify-content: center;
+    }
+
+    .container-02 .ruang-photo {
+        width: 84%;
+        margin-bottom: 50px;
+    }
+
+    .container-02 .container-photo {
+        justify-content: center;
     }
 
 }
@@ -124,10 +158,6 @@
 
     header h1 {
         width: 80%;
-    }
-
-    .hero .profil img {
-        width: 66%;
     }
 
     .hero .profil h2#nama {
@@ -156,11 +186,12 @@
     }
 
     .container-02 h2 {
-        width: 38%;
+        width: 50%;
+        margin-top: 25px;
     }
 
     .container-02 a {
-        width: 70%;
+        width: 72%;
         font-size: 15px;
         margin-bottom: 25px;
     }
@@ -170,13 +201,13 @@
     }
 
     .container-02 .ruang-logo {
-        width: 90%;
+        width: 93%;
         margin-bottom: 50px;
         padding: 25%;
     }
 
     .container-02 .ruang-photo {
-        width: 90%;
+        width: 93%;
         margin-bottom: 50px;
     }
 
@@ -204,7 +235,7 @@
     }
 
     .container-02 h2 {
-        width: 42%;
+        width: 55%;
         font-size: 17px;
     }
 
@@ -231,12 +262,12 @@
     }
 
     .container-02 h2 {
-        width: 46%;
+        width: 60%;
         font-size: 16px;
     }
 
     .container-02 a {
-        width: 80%;
+        width: 85%;
         font-size: 14px;
     }
 
