@@ -3,7 +3,7 @@
 @media (max-width: 1024px) {
 
     header h1 {
-        font-size: 16px;
+        font-size: 25px;
     }
 
     .hero .profil h2#nama {
@@ -11,7 +11,7 @@
     }
 
     .hero .profil h2#status {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .container-02 h2 {
@@ -46,26 +46,12 @@
 
 @media (max-width: 768px) {
 
-    header {
-        border-bottom-width: 1px;
-    }
-
-    header img {
-        width: 6%;
-    }
-
-    header h1 {
-        width: 86%;
-    }
-
     .container-01 .logo-main {
-        height: 80vh;
-        padding: 33%;
+        padding: 0 33%;
     }
 
     .container-02 h2 {
-        width: 33%;
-        margin-top: 15px;
+        width: 35%;
     }
 
     .container-02 a {
@@ -100,22 +86,18 @@
         margin-bottom: 25px;
     }
 
-    footer {
-        border-top-width: 1px;
-    }
-
 }
 
 
 
-@media (max-width: 550px) {
+@media (max-width: 555px) {
 
     .container-02 h2 {
-        width: 45%;
+        width: 50%;
     }
 
     .container-02 a {
-        width: 65%;
+        width: 70%;
     }
 
     .container-02 .sosmed {
@@ -128,7 +110,7 @@
     }
 
     .container-02 .ruang-logo {
-        width: 82%;
+        width: 84%;
         margin-bottom: 50px;
         padding: 20%;
     }
@@ -152,23 +134,12 @@
 
 @media (max-width: 425px) {
 
-    header img {
-        width: 9%;
-    }
-
-    header h1 {
-        width: 80%;
-    }
-
     .hero .profil h2#nama {
         font-size: 28px;
-        font-weight: 500;
-        margin-top: 20px;
-        margin-bottom: 10px;
     }
 
     .hero .profil h2#status {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .container {
@@ -186,14 +157,12 @@
     }
 
     .container-02 h2 {
-        width: 50%;
-        margin-top: 25px;
+        width: 55%;
     }
 
     .container-02 a {
-        width: 72%;
-        font-size: 15px;
-        margin-bottom: 25px;
+        width: 75%;
+        font-size: 16px;
     }
 
     .container-02 .kontak {
@@ -201,14 +170,12 @@
     }
 
     .container-02 .ruang-logo {
-        width: 93%;
-        margin-bottom: 50px;
+        width: 95%;
         padding: 25%;
     }
 
     .container-02 .ruang-photo {
-        width: 93%;
-        margin-bottom: 50px;
+        width: 95%;
     }
 
     footer p#desainer {
@@ -231,16 +198,16 @@
     }
 
     .hero .profil h2#status {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .container-02 h2 {
-        width: 55%;
+        width: 60%;
         font-size: 17px;
     }
 
     .container-02 a {
-        width: 75%;
+        width: 80%;
     }
 
 }
@@ -249,20 +216,16 @@
 
 @media (max-width: 320px) {
 
-    header h1 {
-        font-size: 15px;
-    }
-
     .hero .profil h2#nama {
         font-size: 22px;
     }
 
     .hero .profil h2#status {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .container-02 h2 {
-        width: 60%;
+        width: 65%;
         font-size: 16px;
     }
 
