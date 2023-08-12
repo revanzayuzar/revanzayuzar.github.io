@@ -15,7 +15,7 @@
     }
 
     .container-02 h2 {
-        width: 26%;
+        width: 33%;
     }
 
     .container-02 a {
@@ -50,7 +50,7 @@
     }
 
     .container-02 h2 {
-        width: 35%;
+        width: 43%;
     }
 
     .container-02 a {
@@ -92,7 +92,7 @@
 @media (max-width: 588px) {
 
     .container-02 h2 {
-        width: 50%;
+        width: 55%;
     }
 
     .container-02 a {
@@ -156,7 +156,7 @@
     }
 
     .container-02 h2 {
-        width: 55%;
+        width: 60%;
     }
 
     .container-02 a {
@@ -201,7 +201,7 @@
     }
 
     .container-02 h2 {
-        width: 60%;
+        width: 65%;
         font-size: 20px;
     }
 
@@ -220,7 +220,7 @@
     }
 
     .container-02 h2 {
-        width: 65%;
+        width: 70%;
         font-size: 18px;
     }
 
