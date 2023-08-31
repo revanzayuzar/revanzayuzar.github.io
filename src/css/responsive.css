@@ -1,0 +1,296 @@
+/* REVAN | Responsive */
+
+@media (max-width: 1080px) {
+
+    nav {
+        width: 36%;
+        right: 32%;
+    }
+
+    .menu {
+        width: 40%;
+    }
+
+    .hero .profil h2#nama {
+        font-size: 33px;
+    }
+
+    .container-01 {
+        width: 90%;
+    }
+
+    .container-02 a {
+        width: 40%;
+    }
+
+    footer .left {
+        width: 90%;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .say {
+        width: 70%;
+        left: 15%;
+    }
+
+    nav {
+        width: 40%;
+        right: 15%;
+    }
+
+    .menu {
+        width: 50%;
+    }
+
+    .hero .profil img {
+        width: 275px;
+    }
+
+    .container-01 .logo-main {
+        padding: 0 35%;
+    }
+
+    .container-02 a {
+        width: 45%;
+    }
+
+    .container-02 .ruang-logo {
+        width: 45%;
+        margin-bottom: 25px;
+        padding: 7%;
+    }
+
+    .container-02 .ruang-photo {
+        width: 45%;
+        margin-bottom: 25px;
+    }
+
+}
+
+
+
+@media (max-width: 550px) {
+
+    .say {
+        width: 80%;
+        left: 10%;
+    }
+
+    nav {
+        top: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        padding: 5px 50px;
+    }
+
+    .container-01 .logo-main {
+        padding: 0 30%;
+    }
+
+    .container-02 .ruang-logo {
+        width: 75%;
+        margin-bottom: 50px;
+        padding: 15%;
+    }
+
+    .container-02 .ruang-photo {
+        width: 75%;
+        margin-bottom: 50px;
+    }
+
+    footer .left {
+        width: 100%;
+    }
+
+    footer .right {
+        justify-content: space-between;
+    }
+
+}
+
+
+
+@media (max-width: 500px) {
+
+    .menu {
+        width: 60%;
+    }
+
+    .container-01 .logo-main {
+        padding: 0 25%;
+    }
+
+    .container-02 h2 {
+        width: 75%;
+    }
+
+    .container-02 a {
+        width: 75%;
+    }
+
+    footer .right {
+        flex-direction: column;
+    }
+
+    footer img {
+        margin-bottom: 25px;
+    }
+
+}
+
+
+
+@media (max-width: 450px) {
+
+    .say {
+        width: 86%;
+        left: 7%;
+    }
+
+    nav {
+        padding: 5px 25px;
+    }
+
+    .menu {
+        width: 75%;
+    }
+
+    .button-menu,
+    .button-close {
+        right: 15px;
+    }
+
+    .hero .profil h2#nama {
+        font-size: 30px;
+    }
+
+    .hero .profil h2#status {
+        font-size: 16px;
+    }
+
+    .container-01 {
+        width: 95%;
+    }
+
+    .container-02 .ruang-photo {
+        width: 90%;
+    }
+
+    footer p#desainer {
+        letter-spacing: 3px;
+    }
+
+    footer p#copyright {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+}
+
+
+
+@media (max-width: 375px) {
+
+    .say img {
+        width: 30px;
+        margin-right: 5px;
+    }
+
+    .say img.close-say {
+        top: -15px;
+        right: -15px;
+    }
+
+    .welcome {
+        font-size: 13px;
+    }
+
+    nav {
+        padding: 5px 15px;
+    }
+
+    header img {
+        margin-left: 5px;
+    }
+
+    header h1 {
+        margin-left: 15px;
+    }
+
+    .hero .profil h2#nama {
+        font-size: 28px;
+    }
+
+    .hero .profil h2#status {
+        font-size: 15px;
+    }
+
+    .container-02 h2 {
+        width: 80%;
+    }
+
+    .container-02 a {
+        width: 80%;
+    }
+
+    .container-02 .ruang-logo {
+        width: 80%;
+    }
+
+    footer .left p {
+        font-size: 14px;
+    }
+
+    footer p#desainer {
+        font-size: 16px;
+    }
+
+    footer p#copyright {
+        font-size: 11px;
+    }
+
+}
+
+
+
+@media (max-width: 325px) {
+
+    .menu h2 {
+        font-size: 22px;
+    }
+
+    .menu-list a {
+        font-size: 14px;
+    }
+
+    .menu p {
+        font-size: 13px;
+    }
+
+    .container-02 h2 {
+        width: 85%;
+        font-size: 20px;
+    }
+
+    .container-02 a {
+        width: 85%;
+        font-size: 14px;
+    }
+
+    .container-02 .ruang-logo {
+        width: 85%;
+    }
+
+    footer .left p {
+        font-size: 13px;
+    }
+
+}
