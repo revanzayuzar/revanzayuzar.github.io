@@ -177,7 +177,7 @@
     }
 
     .container-01 {
-        width: 95%;
+        width: 93%;
     }
 
     .container-02 .ruang-photo {
@@ -201,7 +201,6 @@
 
     .say img {
         width: 30px;
-        margin-right: 5px;
     }
 
     .say img.close-say {
@@ -269,10 +268,6 @@
 
     .menu-list a {
         font-size: 14px;
-    }
-
-    .menu p {
-        font-size: 13px;
     }
 
     .container-02 h2 {
