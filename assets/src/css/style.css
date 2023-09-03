@@ -49,7 +49,7 @@ body {
 }
 
 .loading p {
-    position: absolute;
+    position: fixed;
     right: 25px;
     bottom: 25px;
     color: white;
@@ -209,6 +209,7 @@ nav img:hover, nav img:active,
 
 .button-close {
     filter: none;
+    background-color: black;
     border: 2px solid red;
     border-radius: 50%;
     transform: scale(0) translateX(200%);
