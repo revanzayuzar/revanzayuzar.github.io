@@ -33,8 +33,6 @@ body {
     bottom: 0;
     z-index: 10;
     background-color: black;
-    transform: scale(1);
-    transform-origin: 0 0;
 }
 
 .finish-loading {
@@ -51,7 +49,7 @@ body {
 }
 
 .loading p {
-    position: fixed;
+    position: absolute;
     right: 25px;
     bottom: 25px;
     color: white;
