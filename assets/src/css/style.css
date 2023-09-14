@@ -12,7 +12,6 @@
 }
 
 body {
-    background-color: rgb(75, 0, 0);
     font-family: 'Rubik', sans-serif;
 }
 
@@ -22,6 +21,7 @@ body {
 
 .loading {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -33,30 +33,48 @@ body {
     bottom: 0;
     z-index: 10;
     background-color: black;
+    padding-bottom: 66px;
 }
 
 .finish-loading {
     display: none;
-    opacity: 0;
-    transition-property: all;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-out;
 }
 
 .loading img {
-    width: 200px;
-    margin-bottom: 50px;
+    width: 175px;
+}
+
+.loading h1 {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+@keyframes next {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 .loading p {
     position: fixed;
-    right: 25px;
     bottom: 25px;
     color: white;
     font-size: 15px;
     font-weight: 300;
-    font-style: italic;
-    letter-spacing: 1px;
+    animation: next 1.5s infinite;
+    animation-timing-function: ease;
 }
 
 .say {
@@ -75,9 +93,6 @@ body {
     border-radius: 10px;
     opacity: 0;
     transform: scale(0);
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-out;
 }
 
 .say-active {
@@ -130,17 +145,13 @@ body {
 
 .say img.close-say {
     position: absolute;
-    top: -18px;
-    right: -18px;
+    top: -50px;
+    right: 0;
     background-color: black;
-    border: 2px solid red;
     margin: 0;
     padding: 3px;
-}
-
-.say img.close-say:hover,
-.say img.close-say:active {
-    transform: scale(0.95);
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 header {
@@ -149,8 +160,8 @@ header {
     align-items: center;
     width: 100%;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 5px 25px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
     top: 0;
     left: 0;
@@ -161,7 +172,6 @@ header {
 header img {
     display: block;
     width: 50px;
-    margin-left: 10px;
 }
 
 header h1 {
@@ -170,7 +180,7 @@ header h1 {
     font-size: 25px;
     font-weight: 400;
     letter-spacing: 5px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 nav {
@@ -179,7 +189,7 @@ nav {
     align-items: center;
     width: 30%;
     position: fixed;
-    top: 11px;
+    top: 13px;
     right: 35%;
     z-index: 2;
 }
@@ -187,41 +197,34 @@ nav {
 nav img,
 .button-menu,
 .button-close {
-    width: 38px;
+    width: 34px;
     filter: invert(1);
     padding: 3px;
     border-radius: 5px;
 }
 
-nav img:hover, nav img:active,
-.button-menu:hover, .button-menu:active {
+nav img:hover, nav img:active {
     background-color: white;
-    box-shadow: 0 0 7px black;
+    box-shadow: 0 0 5px black;
 }
 
 .button-menu,
 .button-close {
     position: fixed;
-    top: 11px;
+    top: 13px;
     right: 25px;
     z-index: 4;
 }
 
 .button-close {
     filter: none;
-    background-color: black;
-    border: 2px solid red;
-    border-radius: 50%;
-    transform: scale(0) translateX(200%);
-    transition: transform 0.5s ease-out;
-}
-
-.button-close:hover {
-    box-shadow: 0 0 22px red;
+    transform: scale(0) translateX(100%);
+    transition: transform 0.4s ease-out;
 }
 
 .menu {
     width: 30%;
+    height: 100vh;
     position: fixed;
     top: 0;
     right: 0;
@@ -233,31 +236,38 @@ nav img:hover, nav img:active,
     padding: 60px 25px;
     border-left: 0.5px solid rgba(255, 255, 255, 0.25);
     transform: translateX(100%);
-    transition: transform 0.5s ease-out;
+    transition: transform 0.4s ease-out;
 }
 
 .active-button {
     transform: scale(1) translateX(0);
-    transition: transform 0.5s ease-out;
+    transition: transform 0.4s ease-out;
 }
 
 .hidden-button {
-    transform: scale(0) translateX(-200%);
-    transition: transform 0.5s ease-out;
+    transform: scale(0) translateX(-100%);
+    transition: transform 0.4s ease-out;
 }
 
 .active-menu {
     transform: translateX(0);
-    transition: transform 0.5s ease-out;
+    transition: transform 0.4s ease-out;
+}
+
+.menu .container-judul {
+    width: max-content;
+    background-color: black;
+    box-shadow: 0 5px 10px rgb(0, 0, 255);
+    margin: auto;
+    padding: 5px 25px;
+    border-radius: 10px;
 }
 
 .menu h2 {
     color: white;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 1px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid white;
 }
 
 .menu-list {
@@ -271,9 +281,9 @@ nav img:hover, nav img:active,
     width: 80%;
     color: white;
     background-color: rgb(50, 0, 0);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
-    margin-bottom: 25px;
+    margin-bottom: 33px;
     padding: 10px 0;
     border-radius: 25px;
 }
@@ -282,31 +292,19 @@ nav img:hover, nav img:active,
 .menu-list a:active {
     background-color: rgb(100, 0, 0);
     transform: scale(0.95);
-    transition-property: all;
-    transition-duration: 0.25s;
+    transition: all 0.25s ease;
 }
 
 .menu img {
     display: block;
-    width: 50px;
+    width: 75px;
     margin: auto;
-}
-
-.menu p {
-    color: white;
-    font-size: 12px;
-    font-weight: 300;
-    font-style: italic;
-    letter-spacing: 3px;
-    margin-top: 50px;
-    padding-top: 5px;
-    border-top: 1px solid white;
 }
 
 .hero {
     height: 115vh;
     background-image: url(../../img/background/background.jpg);
-    background-color: black;
+    background-color: rgb(75, 0, 0);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -318,7 +316,6 @@ nav img:hover, nav img:active,
     justify-content: center;
     align-items: center;
     height: 100vh;
-    text-align: center;
 }
 
 .hero .profil img {
@@ -345,35 +342,21 @@ nav img:hover, nav img:active,
     font-weight: 400;
 }
 
-.container {
+.content {
     background-color: rgb(75, 0, 0);
+    box-shadow: 0 0 50px black;
     padding-top: 25px;
     padding-bottom: 50px;
 }
 
-@keyframes animation-container-01 {
-    0% {
-        box-shadow: 0 0 25px rgba(0, 0, 255, 1);
-    }
-
-    50% {
-        box-shadow: 0 0 25px rgba(150, 0, 180, 1);
-    }
-
-    100% {
-        box-shadow: 0 0 25px rgba(0, 0, 255, 1);
-    }
-}
-
 .container-01 {
-    width: 80%;
+    width: 82%;
     background-color: rgb(36, 36, 36);
+    box-shadow: 0 0 22px blue;
     margin: auto;
     margin-top: 75px;
     border: 2.5px solid white;
     border-radius: 10px;
-    animation: animation-container-01 5s infinite;
-    animation-timing-function: ease-in-out;
 }
 
 .container-01 .logo-main {
@@ -404,7 +387,7 @@ nav img:hover, nav img:active,
 
     100% {
         opacity: 0;
-        transform: scale(0.95);
+        transform: scale(0.93);
     }
 }
 
@@ -419,16 +402,19 @@ nav img:hover, nav img:active,
     margin: 75px 0;
 }
 
-.container-02 h2 {
-    width: 50%;
-    color: white;
-    font-size: 22px;
-    font-weight: 400;
-    text-align: center;
+.container-02 .container-h2 {
+    width: max-content;
     margin: auto;
     margin-bottom: 36px;
-    padding-bottom: 10px;
-    border-bottom: 7px solid white;
+    padding: 0 10px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid white;
+}
+
+.container-02 h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .container-02 a {
@@ -440,7 +426,7 @@ nav img:hover, nav img:active,
     background-repeat: no-repeat;
     background-position: left;
     background-position-x: 3px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     text-align: center;
     letter-spacing: 1px;
@@ -523,12 +509,12 @@ nav img:hover, nav img:active,
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 72px;
 }
 
 .container-02 .ruang-logo {
     width: 30%;
     background-color: black;
+    margin-top: 36px;
     padding: 5%;
     border: 1.5px solid goldenrod;
     border-radius: 10px;
@@ -540,7 +526,7 @@ nav img:hover, nav img:active,
     }
 
     50% {
-        transform: scale(0.95);
+        transform: scale(0.93);
     }
 
     100% {
@@ -559,19 +545,19 @@ nav img:hover, nav img:active,
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 72px;
 }
 
 .container-02 .ruang-photo {
     width: 30%;
+    margin-top: 36px;
 }
 
 .container-02 .ruang-photo h3 {
     color: white;
     background-color: black;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-align: center;
     padding: 10px 0;
 }
@@ -622,14 +608,41 @@ footer {
 
 footer .left {
     width: 80%;
+    text-align: center;
+}
+
+footer .left h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
 }
 
 footer .left p {
     font-size: 15px;
     font-weight: 300;
-    text-align: justify;
     letter-spacing: 0.5px;
     line-height: 1.5;
+}
+
+footer .left a {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+footer .mid {
+    margin: 25px 0;
+}
+
+footer .mid a {
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
 }
 
 footer .right {
@@ -637,7 +650,6 @@ footer .right {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    margin-top: 50px;
 }
 
 footer img {
@@ -647,18 +659,17 @@ footer img {
 
 footer .end {
     text-align: center;
-    text-transform: uppercase;
 }
 
 footer p#desainer {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 16px;
+    text-transform: uppercase;
     letter-spacing: 5px;
     margin-bottom: 25px;
 }
 
 footer p#copyright {
     font-size: 15px;
-    font-weight: 300;
-    letter-spacing: 1.5px;
+    font-weight: 400;
 }

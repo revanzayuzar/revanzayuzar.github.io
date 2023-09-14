@@ -3,18 +3,13 @@
 
 
 // Untuk menyelesaikan loading
-setTimeout(function() {
+document.getElementById("loading").addEventListener("click", function() {
     let loading = document.querySelector(".loading");
+    loading.classList.remove("loading");
     loading.classList.add("finish-loading");
-}, 2700);
-
-
-
-// Untuk mengubah body fixed menjadi static
-setTimeout(function() {
     let fixed = document.querySelector(".fixed");
     fixed.classList.remove("fixed");
-}, 3000);
+});
 
 
 
@@ -59,4 +54,23 @@ document.getElementById("button-close").addEventListener("click", function() {
     buttonMenu.classList.add("active-button");
     let buttonClose = document.querySelector(".button-close");
     buttonClose.classList.remove("active-button");
+});
+
+const menu = document.querySelector(".menu");
+const buttonMenu = document.getElementById("button-menu");
+const buttonClose = document.getElementById("button-close");
+const revan = document.getElementById("revan");
+const closeSay = document.getElementById("close-say");
+const say = document.querySelector(".say");
+
+document.addEventListener("click", function(event) {
+    if (!menu.contains(event.target) && !buttonMenu.contains(event.target) && !buttonClose.contains(event.target) && !revan.contains(event.target) && !closeSay.contains(event.target) && !say.contains(event.target)) {
+        let menu = document.querySelector(".menu");
+        menu.classList.remove("active-menu");
+        let buttonMenu = document.querySelector(".button-menu");
+        buttonMenu.classList.remove("hidden-button");
+        buttonMenu.classList.add("active-button");
+        let buttonClose = document.querySelector(".button-close");
+        buttonClose.classList.remove("active-button");
+    }
 });
