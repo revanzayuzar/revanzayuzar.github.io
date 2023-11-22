@@ -162,7 +162,8 @@ header {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.75);
     padding: 5px 25px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    border-bottom: 1.5px solid rgba(200, 200, 200, 1);
+    box-shadow: 0 5px 15px black;
     top: 0;
     left: 0;
     right: 0;
@@ -305,12 +306,14 @@ nav img:hover, nav img:active {
     position: relative;
     z-index: 0;
     height: 115vh;
-    background-image: url(../../img/background/background.jpg);
-    background-color: rgb(75, 0, 0);
+    /* background-image: url(../../img/background/background.jpg); */
+    /* background-color: rgb(75, 0, 0); */
+    background-color: rgb(25, 25, 25);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    box-shadow: 0 0 25px blue;
+    /* box-shadow: 0 0 25px blue; */
+    box-shadow: 0 0 25px black;
 }
 
 .hero .profil {
@@ -346,8 +349,8 @@ nav img:hover, nav img:active {
 }
 
 .content {
-    background-color: rgb(75, 0, 0);
-    box-shadow: 0 0 50px black;
+    /* background-color: rgb(75, 0, 0); */
+    background-color: rgb(155, 155, 155);
     padding-top: 25px;
     padding-bottom: 50px;
 }
@@ -436,6 +439,7 @@ nav img:hover, nav img:active {
     margin-top: 36px;
     padding: 10px;
     border-radius: 25px;
+    box-shadow: 0 0 10px rgb(75, 75, 75);
 }
 
 .container-02 a:hover {
@@ -505,6 +509,7 @@ nav img:hover, nav img:active {
     color: black;
     background-image: url(../../img/icon/project.png);
     background-color: white;
+    box-shadow: 0 0 10px rgb(180, 180, 180);
     filter: invert(1);
 }
 
@@ -606,7 +611,8 @@ footer {
     color: white;
     background-color: black;
     padding: 75px 25px;
-    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1.5px solid rgba(100, 100, 100, 1);
+    box-shadow: 0 0 25px black;
 }
 
 footer .left {
