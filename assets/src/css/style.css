@@ -163,7 +163,7 @@ header {
     background-color: rgba(0, 0, 0, 0.75);
     padding: 5px 25px;
     border-bottom: 1.5px solid rgba(200, 200, 200, 1);
-    box-shadow: 0 5px 15px black;
+    box-shadow: 0 0 10px black;
     top: 0;
     left: 0;
     right: 0;
@@ -558,7 +558,7 @@ nav img:hover, nav img:active {
 
 .container-02 .ruang-photo h3 {
     color: white;
-    background-color: rgb(0, 0, 155);
+    background-color: rgb(0, 0, 200);
     font-size: 12px;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -566,32 +566,13 @@ nav img:hover, nav img:active {
     padding: 10px 0;
 }
 
-@keyframes animation-photo {
-    0% {
-        box-shadow: 0 0 10px red;
-    }
-
-    50% {
-        box-shadow: 0 0 10px blue;
-    }
-
-    100% {
-        box-shadow: 0 0 10px red;
-    }
-}
-
 .container-02 .ruang-photo img {
     display: block;
     width: 100%;
-    /* border-top: 5px solid red; */
-    /* border-left: 5px solid red; */
-    /* border-right: 5px solid blue; */
-    /* border-bottom: 5px solid blue; */
-    border: 5px solid white;
+    border: 10px solid white;
+    box-shadow: 0 0 10px blue;
     transform: scale(1);
     transition: transform 0.3s ease-out;
-    animation: animation-photo 5s infinite;
-    animation-timing-function: ease-in-out;
 }
 
 .container-02 .ruang-photo img:hover,
