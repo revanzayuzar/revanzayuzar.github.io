@@ -34,6 +34,7 @@ body {
     z-index: 10;
     background-color: black;
     padding-bottom: 66px;
+    border: 5px solid gold;
 }
 
 .finish-loading {
@@ -47,7 +48,7 @@ body {
 .loading h1 {
     color: gold;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin-top: 5px;
@@ -70,7 +71,7 @@ body {
 .loading p {
     position: fixed;
     bottom: 25px;
-    color: white;
+    color: gold;
     font-size: 15px;
     font-weight: 300;
     animation: next 1.5s infinite;
@@ -105,7 +106,6 @@ body {
 
 .say img {
     width: 36px;
-    margin-right: 5px;
     border-radius: 50%;
 }
 
@@ -134,6 +134,7 @@ body {
     font-weight: 300;
     overflow: hidden;
     white-space: nowrap;
+    margin-left: 5px;
     padding-right: 10px;
     border-right: 2px solid white;
     animation: none;
@@ -258,7 +259,7 @@ nav img:hover, nav img:active {
 .menu .container-judul {
     width: max-content;
     background-color: black;
-    box-shadow: 0 5px 10px blue;
+    box-shadow: 0 5px 15px blue;
     margin: auto;
     padding: 5px 25px;
     border-radius: 10px;
@@ -286,12 +287,14 @@ nav img:hover, nav img:active {
     font-weight: 400;
     margin-bottom: 33px;
     padding: 10px 0;
+    border: 0.5px solid transparent;
     border-radius: 25px;
 }
 
 .menu-list a:hover,
 .menu-list a:active {
     background-color: rgb(0, 0, 100);
+    border: 0.5px solid rgb(200, 200, 200);
     transform: scale(0.95);
     transition: all 0.25s ease;
 }
@@ -307,7 +310,7 @@ nav img:hover, nav img:active {
     z-index: 0;
     height: 115vh;
     /* background-image: url(../../img/background/background.jpg); */
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(0, 0, 50);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -346,14 +349,14 @@ nav img:hover, nav img:active {
 }
 
 .content {
-    background-color: rgb(200, 200, 200);
+    background-color: silver;
     padding-top: 25px;
     padding-bottom: 50px;
 }
 
 .container-01 {
     width: 82%;
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(0, 0, 25);
     box-shadow: 0 0 25px black;
     margin: auto;
     margin-top: 75px;
@@ -558,7 +561,7 @@ nav img:hover, nav img:active {
 
 .container-02 .ruang-photo h3 {
     color: white;
-    background-color: rgb(0, 0, 200);
+    background-color: blue;
     font-size: 12px;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -569,8 +572,8 @@ nav img:hover, nav img:active {
 .container-02 .ruang-photo img {
     display: block;
     width: 100%;
-    border: 10px solid white;
-    box-shadow: 0 0 10px blue;
+    border: 10px solid silver;
+    box-shadow: 0 0 25px blue;
     transform: scale(1);
     transition: transform 0.3s ease-out;
 }
@@ -590,7 +593,7 @@ footer {
     background-color: black;
     padding: 75px 25px;
     border-top: 1.5px solid rgba(200, 200, 200, 1);
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 15px black;
 }
 
 footer .left {
