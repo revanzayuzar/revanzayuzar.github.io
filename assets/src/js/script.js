@@ -4,11 +4,18 @@
 document.getElementById("lanjutkan").addEventListener("click", function() {
     let loading = document.querySelector(".loading");
     loading.classList.add("hidden-loading");
-    let static = document.querySelector(".static");
-    static.classList.remove("fixed");
     let profilHidden = document.querySelector(".profil-hidden");
     profilHidden.classList.remove("profil-hidden");
-}); 
+
+    setTimeout(() => {
+        loading.classList.add("delete-loading");
+    }, 750);
+
+    setTimeout(() => {
+        let static = document.querySelector(".static");
+        static.classList.remove("fixed");
+    }, 1000);
+});
 
 
 
@@ -292,4 +299,13 @@ document.getElementById("about-back").addEventListener("click", function() {
     about.classList.remove("sidebar-content-active");
     let static = document.querySelector(".static");
     static.classList.remove("fixed");
+});
+
+
+
+// Untuk Fitur Restart Website
+document.getElementById("restart-website").addEventListener("click", function(event) {
+    event.preventDefault();
+    history.replaceState(null, null, window.location.pathname);
+    location.reload();
 });

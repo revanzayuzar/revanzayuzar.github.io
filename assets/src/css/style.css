@@ -105,7 +105,11 @@ body {
 
 .hidden-loading {
     transform: translateY(100%);
-    transition: 0.5s ease-out;
+    transition: 0.75s ease-out;
+}
+
+.delete-loading {
+    display: none;
 }
 
 @keyframes kilau-loading {
@@ -807,12 +811,12 @@ nav .teks-berjalan p span {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    transition: 0.5s ease-out;
-    transition-delay: 0.15s;
+    transition: 0.75s ease-out;
+    transition-delay: 0.25s;
 }
 
 .hero .profil-hidden {
-    transform: translateY(200px);
+    transform: translateY(300px);
 }
 
 @keyframes kilau-profil {
