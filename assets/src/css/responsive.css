@@ -1,71 +1,34 @@
 /* REVAN | Responsive */
 
-@media (max-width: 1080px) {
-
-    nav {
-        width: 36%;
-        right: 32%;
-    }
-
-    .menu {
-        width: 40%;
-    }
-
-    .hero .profil h2#nama {
-        font-size: 33px;
-    }
-
-    .container-01 {
-        width: 90%;
-    }
-
-    .container-02 a {
-        width: 40%;
-    }
-
-    footer .left {
-        width: 90%;
-    }
-
-}
-
-
-
 @media (max-width: 768px) {
 
-    .say {
-        width: 70%;
-        left: 15%;
-    }
-
     nav {
-        width: 40%;
-        right: 15%;
+        top: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color: var(--color-secondary-dark);
     }
 
-    .menu {
-        width: 50%;
+    nav .nav-link {
+        width: 45px;
+        padding: 0;
+        padding-top: 5px;
     }
 
-    .hero .profil img {
-        width: 275px;
+    nav .nav-link i {
+        font-size: 18px;
     }
 
-    .container-01 .logo-main {
-        padding: 0 35%;
+    nav .nav-link span {
+        font-size: 10px;
     }
 
-    .container-02 a {
-        width: 45%;
-    }
-
-    .container-02 .ruang-logo {
-        width: 45%;
-        padding: 7%;
-    }
-
-    .container-02 .ruang-photo {
-        width: 45%;
+    .sidebar-content .comment-form {
+        width: 500px;
+        height: 1850px;
     }
 
 }
@@ -74,163 +37,75 @@
 
 @media (max-width: 550px) {
 
-    .say {
-        width: 80%;
-        left: 10%;
+    .sidebar-content .profile-info {
+        width: 92%;
     }
 
-    nav {
-        top: auto;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: black;
-        padding: 5px 50px;
-    }
-
-    .container-01 .logo-main {
-        padding: 0 30%;
-    }
-
-    .container-02 .ruang-logo {
-        width: 75%;
-        padding: 15%;
-    }
-
-    .container-02 .ruang-photo {
-        width: 75%;
-    }
-
-    footer .left {
-        width: 100%;
-    }
-
-    footer .right {
-        justify-content: space-between;
+    .sidebar-content .comment-form {
+        width: 375px;
+        height: 1950px;
     }
 
 }
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 425px) {
 
-    .menu {
-        width: 60%;
-    }
-
-    .container-01 .logo-main {
-        padding: 0 25%;
-    }
-
-    .container-02 a {
-        width: 75%;
-    }
-
-    footer .right {
-        flex-direction: column;
-    }
-
-    footer img {
-        margin-bottom: 25px;
+    nav .teks-berjalan {
+        width: 175px;
     }
 
 }
 
 
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
 
-    .say {
-        width: 86%;
-        left: 7%;
+    .sidebar-content .comment-form {
+        width: 325px;
+        height: 2150px;
     }
 
-    nav {
-        padding: 5px 30px;
-    }
+}
 
-    header {
-        padding: 5px 15px;
+
+
+@media (max-width: 350px) {
+
+    .say-content {
+        padding: 25px 7px;
     }
 
     .menu {
-        width: 70%;
+        width: 275px;
     }
 
-    .button-menu,
+    .active-button-close {
+        transform: translateX(275px);
+    }
+
     .button-close {
-        right: 15px;
+        font-size: 25px;
     }
 
-    .hero .profil h2#nama {
-        font-size: 30px;
-    }
-
-    .hero .profil h2#status {
-        font-size: 16px;
-    }
-
-    .container-02 .ruang-photo {
-        width: 90%;
-    }
-
-    footer p#desainer {
-        letter-spacing: 3px;
+    .sidebar-content .comment-form {
+        width: 300px;
+        height: 2255px;
     }
 
 }
 
 
 
-@media (max-width: 375px) {
+@media (max-width: 320px) {
 
-    .say img {
-        width: 30px;
+    .menu {
+        width: 250px;
     }
 
-    .welcome {
-        font-size: 13px;
-    }
-
-    nav {
-        padding: 5px 20px;
-    }
-
-    .hero .profil h2#nama {
-        font-size: 28px;
-    }
-
-    .container-02 .text {
-        padding: 0 15px;
-    }
-
-    .container-02 a {
-        width: 80%;
-    }
-
-}
-
-
-
-@media (max-width: 325px) {
-
-    .menu h2 {
-        font-size: 22px;
-    }
-
-    .menu-list a {
-        font-size: 14px;
-    }
-
-    .container-02 a {
-        width: 85%;
-        font-size: 14px;
-    }
-
-    footer .left p {
-        font-size: 14px;
+    .active-button-close {
+        transform: translateX(250px);
     }
 
 }
