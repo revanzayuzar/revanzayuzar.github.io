@@ -45,6 +45,7 @@ document.getElementById("close-say").addEventListener("click", function() {
 document.getElementById("button-menu").addEventListener("click", function() {
     let menu = document.querySelector(".menu");
     menu.classList.add("active-menu");
+    menu.scrollTop = 0;
     let buttonMenu = document.querySelector(".button-menu");
     buttonMenu.classList.add("active-button-menu");
     let buttonClose = document.querySelector(".button-close-container");
@@ -246,6 +247,7 @@ document.getElementById("batalkan-donasi").addEventListener("click", function() 
 document.getElementById("nav-profile").addEventListener("click", function() {
     let profile = document.getElementById("profile");
     profile.classList.add("sidebar-content-active");
+    profile.scrollTop = 0;
     let static = document.querySelector(".static");
     static.classList.add("fixed");
 });
@@ -253,6 +255,7 @@ document.getElementById("nav-profile").addEventListener("click", function() {
 document.getElementById("menu-profile").addEventListener("click", function() {
     let profile = document.getElementById("profile");
     profile.classList.add("sidebar-content-active");
+    profile.scrollTop = 0;
     let static = document.querySelector(".static");
     static.classList.add("fixed");
 });
@@ -271,6 +274,7 @@ document.getElementById("profile-back").addEventListener("click", function() {
 document.getElementById("menu-comment").addEventListener("click", function() {
     let comment = document.getElementById("comment");
     comment.classList.add("sidebar-content-active");
+    comment.scrollTop = 0;
     let static = document.querySelector(".static");
     static.classList.add("fixed");
 });
@@ -289,6 +293,7 @@ document.getElementById("comment-back").addEventListener("click", function() {
 document.getElementById("menu-about").addEventListener("click", function() {
     let about = document.getElementById("about");
     about.classList.add("sidebar-content-active");
+    about.scrollTop = 0;
     let static = document.querySelector(".static");
     static.classList.add("fixed");
 });
