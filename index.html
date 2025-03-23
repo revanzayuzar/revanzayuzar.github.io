@@ -15,19 +15,30 @@
             content="kata kunci,
                         website,
                         situs web,
-                        portfolio,
-                        portofolio,
                         M. Revanza Yuzar,
+                        m. revanza yuzar,
+                        M.Revanza Yuzar,
+                        m.revanza yuzar,
                         Revan,
+                        revan,
                         revanzayuzar,
                         revanza yuzar,
+                        m. revanza,
+                        revanza,
+                        yuzar,
                         revanzayuzar.github.io,
+                        portfolio,
+                        portofolio,
                         mahasiswa,
                         teknik informatika,
                         TI,
+                        ti,
                         IT,
+                        it,
                         universitas jabal ghafur,
                         unigha,
+                        fakultas teknik,
+                        program studi teknik informatika,
                         sigli,
                         pidie,
                         meureudu,
@@ -38,16 +49,30 @@
                         web programming,
                         github,
                         github pages,
+                        pemrograman,
+                        pemograman,
+                        program,
+                        html,
+                        css,
+                        javascript,
+                        js,
+                        logo,
+                        social media,
+                        media sosial,
+                        contact,
+                        kontak,
                         project,
                         proyek,
-                        contact,
-                        kontak">
+                        animation,
+                        animasi,
+                        photo,
+                        foto">
     <meta name="author" content="M. Revanza Yuzar">
     <meta name="robots" content="index, follow">
 
-    <meta property="og:title" content="M. Revanza Yuzar - Portfolio"/>
+    <meta property="og:title" content="M. Revanza Yuzar - Portofolio"/>
     <meta property="og:description" content="Portofolio pribadi M. Revanza Yuzar. Temukan proyek-proyek saya dan hubungi saya di sini."/>
-    <meta property="og:image" content="https://revanzayuzar.github.io/assets/img/logo/logo.jpg"/>
+    <meta property="og:image" content="https://revanzayuzar.github.io/assets/img/logo/logo-revan.jpg"/>
     <meta property="og:url" content="https://revanzayuzar.github.io/"/>
     <meta property="og:type" content="website"/>
 
@@ -59,11 +84,34 @@
     <link rel="stylesheet" href="assets/src/css/style.css">
     <link rel="stylesheet" href="assets/src/css/responsive.css">
 
-    <title>REVAN</title>
+    <title>REVAN - M. Revanza Yuzar</title>
 </head>
 
 <body>
+    <!-- Perbaikan Sistem -->
+    <!-- End Perbaikan Sistem -->
+
+    <!-- Container Utama -->
     <div id="app">
+        <!-- Notifikasi Awal -->
+        <section class="notifikasi-awal">
+            <div class="konten-notifikasi">
+                <h1 class="title">
+                    <i class="fa-solid fa-bell"></i>
+                    Versi Baru!!
+                </h1>
+                <p class="text">
+                    Versi terbaru dari website ini telah hadir! Selamat datang & selamat berselancar!
+                </p>
+                <p class="version">
+                    2.1.1
+                </p>
+                <i class="fa-regular fa-circle-xmark close-notifikasi-awal" alt="Close" title="Close" id="close-notifikasi-awal"></i>
+            </div>
+        </section>
+        <!-- End Notifikasi Awal -->
+
+        <!-- Loading -->
         <section class="loading">
             <div class="loading-border">
                 <div class="loading-content">
@@ -73,355 +121,415 @@
                     </div>
                 </div>
             </div>
-            <p id="lanjutkan">Lanjutkan</p>
+            <span class="next" id="lanjutkan">Lanjutkan</span>
         </section>
+        <!-- End Loading -->
 
-        <header>
-            <a href="#">
-                <img src="assets/img/logo/logo.png" alt="Logo Revan" title="Logo Revan">
-                <span>Revan</span>
-            </a>
-            <i class="fa-solid fa-bars button-menu" alt="Menu" title="Menu" id="button-menu"></i>
-        </header>
-
+        <!-- Navigasi Utama (Bawah) -->
         <nav>
-            <a href="#home" class="nav-link">
+            <a href="#beranda" class="nav-beranda nav-link-active" id="nav-beranda">
                 <i class="fa-solid fa-house"></i>
                 <span>Home</span>
             </a>
-            <div class="teks-berjalan">
-                <p>
-                    <span>Assalamualaikum Wr. Wb., Selamat datang di website saya (revanzayuzar.github.io)!</span>
-                    <span>Bagaimana kabarmu hari ini? Semoga dalam keadaan sehat yaa..</span>
-                    <span>Terima kasih atas kunjungannya hari ini</span>
-                    <span>Semoga harimu menyenangkan! -- M. Revanza Yuzar</span>
-                </p>
-            </div>
-            <a href="#profile" class="nav-link" id="nav-profile">
+            <a href="#konten" class="nav-konten" id="nav-konten">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span>Content</span>
+            </a>
+            <a href="#notifikasi" class="nav-notifikasi" id="nav-notifikasi">
+                <i class="fa-solid fa-bell"></i>
+                <span>Notification</span>
+            </a>
+            <a href="#profil" class="nav-profil" id="nav-profil">
                 <i class="fa-solid fa-user"></i>
                 <span>Profile</span>
             </a>
         </nav>
+        <!-- End Navigasi Utama (Bawah) -->
 
-        <div class="menu" id="menu">
-            <div class="top">
-                <h1>DAFTAR MENU</h1>
-                <div class="menu-list">
-                    <a href="#home"><i class="fa-solid fa-house"></i>Home</a>
-                    <a href="#logo"><i class="fa-solid fa-tv"></i>Logo</a>
-                    <a href="#welcome"><i class="fa-solid fa-door-open"></i>Welcome</a>
-                    <a href="#motivation"><i class="fa-solid fa-quote-left"></i>Motivation</a>
-                    <a href="#social-media"><i class="fa-solid fa-globe"></i>Social Media</a>
-                    <a href="#contact"><i class="fa-solid fa-phone"></i>Contact</a>
-                    <a href="#project"><i class="fa-solid fa-gear"></i>Project</a>
-                    <a href="#animation"><i class="fa-solid fa-play"></i>Animation</a>
-                    <a href="#photo"><i class="fa-solid fa-image"></i>Photo</a>
-                    <a href="#give-support"><i class="fa-solid fa-gift"></i>Give Support</a>
-                    <a href="#footer"><i class="fa-solid fa-circle-down"></i>Footer</a>
-                    <a href="#profile" id="menu-profile"><i class="fa-solid fa-user"></i>Profile</a>
-                    <a href="#comment" id="menu-comment"><i class="fa-solid fa-comment-dots"></i>Comment</a>
-                    <a href="#about" id="menu-about"><i class="fa-solid fa-circle-info"></i></i>About</a>
-                    <a href="#" id="restart-website"><i class="fa-solid fa-rotate-right"></i>Restart</a>
-                </div>
-            </div>
-            <div class="bottom">
-                <p>Design By <img src="assets/img/logo/logo.png" alt="Logo Revan"></p>
-            </div>
-        </div>
+        <!-- Menu Utama | Home -->
+        <section class="main-menu-beranda main-menu-active" id="beranda">
+            <header>
+                <a href="#beranda">
+                    <img src="assets/img/logo/logo-website.png" alt="Logo Revan" title="Logo Revan" class="logo">
+                </a>
+                <i class="fa-solid fa-bars button-menu" alt="Menu" title="Menu" id="button-menu"></i>
+            </header>
 
-        <div class="button-close-container">
-            <i class="fa-solid fa-caret-left button-close" alt="Close" title="Close" id="button-close"></i>
-        </div>
-
-        <div class="dark-background"></div>
-
-        <div class="say">
-            <div class="say-content">
-                <img src="assets/img/me/revan-02.jpg" alt="Revan" title="Revan">
-                <div class="ketik">
-                    <p class="welcome">Selamat Datang Di Website Saya!</p>
-                </div>
-                <i class="fa-solid fa-xmark close-say" alt="Close" title="Close" id="close-say"></i>
-            </div>
-        </div>
-
-        <main class="static fixed">
-            <div class="main-content">
-                <div class="hero" id="home">
-                    <div class="container-profil">
-                        <div class="profil profil-hidden">
-                            <img src="assets/img/me/revan-02.jpg" alt="Revan" title="Revan" id="revan">
-                            <h1 id="nama">M. Revanza Yuzar</h1>
-                            <h1 id="status">Mahasiswa Teknik Informatika</h1>
-                        </div>
+            <div class="menu" id="menu">
+                <div class="top">
+                    <h1>DAFTAR MENU</h1>
+                    <div class="menu-list">
+                        <a href="#home"><i class="fa-solid fa-house"></i>Home</a>
+                        <a href="#logo"><i class="fa-solid fa-tv"></i>Logo</a>
+                        <a href="#welcome"><i class="fa-solid fa-door-open"></i>Welcome</a>
+                        <a href="#motivation"><i class="fa-solid fa-quote-left"></i>Motivation</a>
+                        <a href="#social-media"><i class="fa-solid fa-globe"></i>Social Media</a>
+                        <a href="#contact"><i class="fa-solid fa-phone"></i>Contact</a>
+                        <a href="#project"><i class="fa-solid fa-gear"></i>Project</a>
+                        <a href="#animation"><i class="fa-solid fa-play"></i>Animation</a>
+                        <a href="#photo"><i class="fa-solid fa-image"></i>Photo</a>
+                        <a href="#give-support"><i class="fa-solid fa-gift"></i>Give Support</a>
+                        <a href="#footer"><i class="fa-solid fa-circle-down"></i>Footer</a>
+                        <a href="#comment" id="menu-comment"><i class="fa-solid fa-comment-dots"></i>Comment</a>
+                        <a href="#about" id="menu-about"><i class="fa-solid fa-circle-info"></i>About</a>
+                        <a href="#" id="restart-website"><i class="fa-solid fa-rotate-right"></i>Restart</a>
                     </div>
                 </div>
+                <div class="bottom">
+                    <p>Design By <img src="assets/img/logo/logo-website.png" alt="Logo Revan"></p>
+                </div>
+            </div>
 
-                <div class="content">
-                    <div class="container-01-logo" id="logo">
-                        <div class="logo-border">
-                            <div class="logo-container">
-                                <img src="assets/img/logo/logo.png" alt="Logo Revan" title="Logo Revan">
+            <div class="button-close-container">
+                <i class="fa-solid fa-caret-left button-close" alt="Close" title="Close" id="button-close"></i>
+            </div>
+
+            <div class="dark-background"></div>
+
+            <div class="say">
+                <div class="say-content">
+                    <img src="assets/img/me/revan-02.jpg" alt="Revan" title="Revan">
+                    <div class="ketik">
+                        <p class="welcome">Selamat Datang Di Website Saya!</p>
+                    </div>
+                    <i class="fa-solid fa-xmark close-say" alt="Close" title="Close" id="close-say"></i>
+                </div>
+            </div>
+
+            <main>
+                <div class="main-content">
+                    <div class="hero" id="home">
+                        <div class="container-profil">
+                            <div class="profil-content profil-hidden">
+                                <img src="assets/img/me/revan-02.jpg" alt="Revan" title="Revan" id="revan">
+                                <h1 id="nama">M. Revanza Yuzar</h1>
+                                <h1 id="status">Mahasiswa Teknik Informatika</h1>
                             </div>
                         </div>
                     </div>
 
-                    <div class="container-01" id="welcome">
-                        <div class="container-02">
-                            <div class="container-h1">
-                                <h1>WELCOME</h1>
-                            </div>
-                            <div class="text">
-                                <h2>Sambutan Dari Pemilik Website</h2>
-                                <p>Halo! Nama saya M. Revanza Yuzar, atau biasa dipanggil Revan. Saya seorang mahasiswa Teknik Informatika (S1) di Universitas Jabal Ghafur, berasal dari Kabupaten Pidie Jaya, Provinsi Aceh, Indonesia. Senang sekali Anda berkunjung ke halaman ini!</p>
-                                <p>Saya memiliki minat yang besar dalam dunia pengembangan web, khususnya dalam bidang Web Programming. Saat ini, saya sedang mendalami cara menciptakan tampilan antarmuka website yang menarik dan responsif menggunakan HTML, CSS, dan JavaScript. Saya percaya bahwa desain yang baik bukan hanya soal estetika, tetapi juga tentang menciptakan pengalaman pengguna yang nyaman dan intuitif.</p>
-                                <p>Website ini saya buat sebagai portofolio dan wadah eksplorasi digital saya. Di sini, Anda akan menemukan berbagai informasi tentang saya, termasuk sosial media, kontak, proyek yang sedang saya kerjakan, desain logo, serta beberapa foto yang saya bagikan. Saya berharap website ini tidak hanya menjadi tempat untuk memperkenalkan diri, tetapi juga bisa menjadi inspirasi atau referensi bagi siapa pun yang memiliki minat yang sama.</p>
-                                <p>Terima kasih telah berkunjung! Jangan ragu untuk menjelajahi setiap halaman dan menghubungi saya jika ada pertanyaan atau sekadar ingin berbagi pengalaman. Selamat berselancar!</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="container-01" id="motivation">
-                        <div class="container-02">
-                            <div class="container-h1">
-                                <h1>Motivation</h1>
-                            </div>
-                            <div class="text">
-                                <h2>Motivasi Untuk Para Front-End Web Developer</h2>
-                                <p>"Sebagai seorang front-end web developer, kamu adalah arsitek pengalaman pengguna. Setiap tata letak, animasi, dan interaksi yang kamu rancang membangun jembatan antara pengguna dan teknologi. Jadikan setiap klik sebagai sebuah perjalanan yang memikat."</p>
-                                <p>"Pekerjaanmu adalah membawa ide dari konsep ke realitas, dari pixel ke antarmuka yang hidup. Setiap baris kode adalah cerita yang kamu tulis untuk para pengguna. Pastikan setiap halaman webmu menceritakan kisah yang menarik dan mudah dimengerti."</p>
-                                <p>"Front-end development adalah seni memadukan keindahan dan fungsionalitas. Dalam setiap elemen desain yang kamu buat, sertakan sentuhan kreatifmu. Tanamkan keindahan visual seiring dengan kecanggihan fungsional, dan buatlah setiap tampilan sebagai karya seni interaktif."</p>
-                                <p>"Dalam dunia front-end development, setiap tampilan adalah panggung untuk kemungkinan tanpa batas. Bermainlah dengan warna, bentuk, dan animasi. Berikan kepada dunia web sesuatu yang tidak hanya dilihat, tetapi juga dirasakan dan diingat."</p>
-                                <p>"Tuangkan imajinasimu ke dalam baris-baris kode, ciptakan antarmuka yang tak hanya indah tetapi juga fungsional, dan wujudkan pengalaman digital yang menginspirasi. Jangan pernah ragu untuk bereksperimen, karena setiap baris kode yang kamu tulis adalah langkah menuju inovasi dan perubahan."</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="container-01" id="social-media">
-                        <div class="container-02">
-                            <div class="container-h1">
-                                <h1>My Social Media</h1>
-                            </div>
-                            <div class="sosmed">
-                                <a href="https://revanzayuzar.github.io/portofolio" target="_blank" class="link" id="website">
-                                    <img src="assets/img/social-media/website.jpg" alt="Logo Revan">
-                                    <span>Portofolio</span>
-                                </a>
-                                <a href="https://www.instagram.com/revanzayuzar" target="_blank" class="link" id="instagram">
-                                    <img src="assets/img/social-media/instagram.jpg" alt="Logo Instagram">
-                                    <span>Instagram</span>
-                                </a>
-                                <a href="https://www.tiktok.com/@revanzayuzar" target="_blank" class="link" id="tiktok">
-                                    <img src="assets/img/social-media/tiktok.jpg" alt="Logo TikTok">
-                                    <span>TikTok</span>
-                                </a>
-                                <a href="https://www.facebook.com/revanzayuzar" target="_blank" class="link" id="facebook">
-                                    <img src="assets/img/social-media/facebook.jpg" alt="Logo Facebook">
-                                    <span>Facebook</span>
-                                </a>
-                                <a href="https://www.github.com/revanzayuzar" target="_blank" class="link" id="github">
-                                    <img src="assets/img/social-media/github.jpg" alt="Logo GitHub">
-                                    <span>GitHub</span>
-                                </a>
-                                <a href="https://www.youtube.com/@revanzayuzar" target="_blank" class="link" id="youtube">
-                                    <img src="assets/img/social-media/youtube.jpg" alt="Logo YouTube">
-                                    <span>YouTube</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="container-01" id="contact">
-                        <div class="container-02">
-                            <div class="container-h1">
-                                <h1>My Contact</h1>
-                            </div>
-                            <div class="kontak">
-                                <!-- <a href="https://wa.me/6289623252659" target="_blank" class="link" id="whatsapp">
-                                    <img src="assets/img/social-media/whatsapp.jpg" alt="Logo WhatsApp">
-                                    <span>WhatsApp</span>
-                                </a> -->
-                                <a href="https://t.me/revanzayuzar" target="_blank" class="link" id="telegram">
-                                    <img src="assets/img/social-media/telegram.jpg" alt="Logo Telegram">
-                                    <span>Telegram</span>
-                                </a>
-                                <a href="https://discord.com/users/1217922354039226368" target="_blank" class="link" id="discord">
-                                    <img src="assets/img/social-media/discord.jpg" alt="Logo Discord">
-                                    <span>Discord</span>
-                                </a>
-                                <a href="mailto:revanzayuzar.github.io@gmail.com" target="_blank" class="link" id="gmail">
-                                    <img src="assets/img/social-media/gmail.jpg" alt="Logo Gmail">
-                                    <span>Gmail</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="container-01" id="project">
-                        <div class="container-02">
-                            <div class="container-h1">
-                                <h1>My Project</h1>
-                            </div>
-                            <div class="project">
-                                <a href="https://revanzayuzar.github.io/portofolio" target="_blank" class="link">
-                                    <i class="fa-solid fa-gears"></i>
-                                    <span>Project-01</span>
-                                </a>
-                                <a href="https://revanzayuzar.github.io/project-01" target="_blank" class="link">
-                                    <i class="fa-solid fa-gears"></i>
-                                    <span>Project-02</span>
-                                </a>
-                                <a href="https://revanzayuzar.github.io/wedding" target="_blank" class="link">
-                                    <i class="fa-solid fa-gears"></i>
-                                    <span>Project-03</span>
-                                </a>
-                                <a href="https://revanzayuzar.github.io/TugasSIB24-Revan" target="_blank" class="link">
-                                    <i class="fa-solid fa-gears"></i>
-                                    <span>Project-04</span>
-                                </a>
-                                <a href="https://revanzayuzar.web.id" target="_blank" class="link">
-                                    <i class="fa-solid fa-gears"></i>
-                                    <span>Project-05</span>
-                                </a>
-                                <a href="https://project-bnsp.revanzayuzar.web.id" target="_blank" class="link">
-                                    <i class="fa-solid fa-gears"></i>
-                                    <span>Project-06</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="container-01" id="animation">
-                        <div class="container-02">
-                            <div class="container-h1">
-                                <h1>My Animation</h1>
-                            </div>
-                            <div class="animasi">
-                                <div class="border-animasi">
-                                    <div class="content-animasi">
-                                        <div class="ruang-animasi">
-                                            <img src="assets/img/logo/logo.png" class="animasi-01" alt="Logo Revan" title="Logo Revan">
-                                        </div>
-                                        <h2>Animasi-01 <br> (Tahap Pengembangan)</h2>
-                                        <div class="action">
-                                            <i class="fa-solid fa-play play-animasi-01" id="play-animasi-01" title="Play"></i>
-                                            <i class="fa-solid fa-stop stop-animasi-01" id="stop-animasi-01" title="Stop"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="border-animasi">
-                                    <div class="content-animasi">
-                                        <div class="ruang-animasi">
-                                            <img src="assets/img/logo/logo.png" class="animasi-02" alt="Logo Revan" title="Logo Revan">
-                                        </div>
-                                        <h2>Animasi-02 <br> (Tahap Pengembangan)</h2>
-                                        <div class="action">
-                                            <i class="fa-solid fa-play play-animasi-02" id="play-animasi-02" title="Play"></i>
-                                            <i class="fa-solid fa-stop stop-animasi-02" id="stop-animasi-02" title="Stop"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="border-animasi">
-                                    <div class="content-animasi">
-                                        <div class="ruang-animasi">
-                                            <img src="assets/img/logo/logo.png" class="animasi-03" alt="Logo Revan" title="Logo Revan">
-                                        </div>
-                                        <h2>Animasi-03 <br> (Tahap Pengembangan)</h2>
-                                        <div class="action">
-                                            <i class="fa-solid fa-play play-animasi-03" id="play-animasi-03" title="Play"></i>
-                                            <i class="fa-solid fa-stop stop-animasi-03" id="stop-animasi-03" title="Stop"></i>
-                                        </div>
-                                    </div>
+                    <div class="content">
+                        <div class="container-01-logo" id="logo">
+                            <div class="logo-border">
+                                <div class="logo-container">
+                                    <img src="assets/img/logo/logo.png" alt="Logo Revan" title="Logo Revan">
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="container-01" id="photo">
-                        <div class="container-02">
-                            <div class="container-h1">
-                                <h1>My Photo</h1>
+                        <div class="container-01" id="welcome">
+                            <div class="container-02">
+                                <div class="container-h1">
+                                    <h1>
+                                        <i class="fa-solid fa-door-open"></i>
+                                        WELCOME
+                                    </h1>
+                                </div>
+                                <div class="text">
+                                    <h2>Sambutan Dari Pemilik Website</h2>
+                                    <p>Halo! Nama saya M. Revanza Yuzar, atau biasa dipanggil Revan. Saya seorang mahasiswa Teknik Informatika (S1) di Universitas Jabal Ghafur, berasal dari Kabupaten Pidie Jaya, Provinsi Aceh, Indonesia. Senang sekali Anda berkunjung ke halaman ini!</p>
+                                    <p>Saya memiliki minat yang besar dalam dunia pengembangan web, khususnya dalam bidang Web Programming. Saat ini, saya sedang mendalami cara menciptakan tampilan antarmuka website yang menarik dan responsif menggunakan HTML, CSS, dan JavaScript. Saya percaya bahwa desain yang baik bukan hanya soal estetika, tetapi juga tentang menciptakan pengalaman pengguna yang nyaman dan intuitif.</p>
+                                    <p>Website ini saya buat sebagai portofolio dan wadah eksplorasi digital saya. Di sini, Anda akan menemukan berbagai informasi tentang saya, termasuk sosial media, kontak, proyek yang sedang saya kerjakan, desain logo, serta beberapa foto yang saya bagikan. Saya berharap website ini tidak hanya menjadi tempat untuk memperkenalkan diri, tetapi juga bisa menjadi inspirasi atau referensi bagi siapa pun yang memiliki minat yang sama.</p>
+                                    <p>Terima kasih telah berkunjung! Jangan ragu untuk menjelajahi setiap halaman dan menghubungi saya jika ada pertanyaan atau sekadar ingin berbagi pengalaman. Selamat berselancar!</p>
+                                </div>
                             </div>
-                            <div class="foto">
-                                <div class="border-foto">
-                                    <div class="content-foto">
-                                        <img src="assets/img/my-photo/revan-photo-01.jpg" class="foto-01" alt="Foto Revan" title="Foto Revan">
-                                        <h2>Foto-01</h2>
-                                        <div class="action">
-                                            <i class="fa-solid fa-eye lihat-foto-01" id="lihat-foto-01" title="Lihat Foto"></i>
+                        </div>
+
+                        <div class="container-01" id="motivation">
+                            <div class="container-02">
+                                <div class="container-h1">
+                                    <h1>
+                                        <i class="fa-solid fa-quote-left"></i>
+                                        Motivation
+                                    </h1>
+                                </div>
+                                <div class="text">
+                                    <h2>Motivasi Untuk Para Front-End Web Developer</h2>
+                                    <p>"Sebagai seorang front-end web developer, kamu adalah arsitek pengalaman pengguna. Setiap tata letak, animasi, dan interaksi yang kamu rancang membangun jembatan antara pengguna dan teknologi. Jadikan setiap klik sebagai sebuah perjalanan yang memikat."</p>
+                                    <p>"Pekerjaanmu adalah membawa ide dari konsep ke realitas, dari pixel ke antarmuka yang hidup. Setiap baris kode adalah cerita yang kamu tulis untuk para pengguna. Pastikan setiap halaman webmu menceritakan kisah yang menarik dan mudah dimengerti."</p>
+                                    <p>"Front-end development adalah seni memadukan keindahan dan fungsionalitas. Dalam setiap elemen desain yang kamu buat, sertakan sentuhan kreatifmu. Tanamkan keindahan visual seiring dengan kecanggihan fungsional, dan buatlah setiap tampilan sebagai karya seni interaktif."</p>
+                                    <p>"Dalam dunia front-end development, setiap tampilan adalah panggung untuk kemungkinan tanpa batas. Bermainlah dengan warna, bentuk, dan animasi. Berikan kepada dunia web sesuatu yang tidak hanya dilihat, tetapi juga dirasakan dan diingat."</p>
+                                    <p>"Tuangkan imajinasimu ke dalam baris-baris kode, ciptakan antarmuka yang tak hanya indah tetapi juga fungsional, dan wujudkan pengalaman digital yang menginspirasi. Jangan pernah ragu untuk bereksperimen, karena setiap baris kode yang kamu tulis adalah langkah menuju inovasi dan perubahan."</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-01" id="social-media">
+                            <div class="container-02">
+                                <div class="container-h1">
+                                    <h1>
+                                        <i class="fa-solid fa-globe"></i>
+                                        My Social Media
+                                    </h1>
+                                </div>
+                                <div class="sosmed">
+                                    <a href="https://revanzayuzar.github.io/portofolio" target="_blank" class="link" id="website">
+                                        <div class="link-content">
+                                            <img src="assets/img/social-media/website.jpg" alt="Logo Revan">
+                                            <span>Portofolio</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://www.instagram.com/revanzayuzar" target="_blank" class="link" id="instagram">
+                                        <div class="link-content">
+                                            <img src="assets/img/social-media/instagram.jpg" alt="Logo Instagram">
+                                            <span>Instagram</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://www.tiktok.com/@revanzayuzar" target="_blank" class="link" id="tiktok">
+                                        <div class="link-content">
+                                            <img src="assets/img/social-media/tiktok.jpg" alt="Logo TikTok">
+                                            <span>TikTok</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://www.facebook.com/revanzayuzar" target="_blank" class="link" id="facebook">
+                                        <div class="link-content">
+                                            <img src="assets/img/social-media/facebook.jpg" alt="Logo Facebook">
+                                            <span>Facebook</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://www.github.com/revanzayuzar" target="_blank" class="link" id="github">
+                                        <div class="link-content">
+                                            <img src="assets/img/social-media/github.jpg" alt="Logo GitHub">
+                                            <span>GitHub</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://www.youtube.com/@revanzayuzar" target="_blank" class="link" id="youtube">
+                                        <div class="link-content">
+                                            <img src="assets/img/social-media/youtube.jpg" alt="Logo YouTube">
+                                            <span>YouTube</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-01" id="contact">
+                            <div class="container-02">
+                                <div class="container-h1">
+                                    <h1>
+                                        <i class="fa-solid fa-phone"></i>
+                                        My Contact
+                                    </h1>
+                                </div>
+                                <div class="kontak">
+                                    <!-- <a href="https://wa.me/6289623252659" target="_blank" class="link" id="whatsapp">
+                                        <div class="link-content">
+                                            <img src="assets/img/social-media/whatsapp.jpg" alt="Logo WhatsApp">
+                                            <span>WhatsApp</span>
+                                        </div>
+                                    </a> -->
+                                    <a href="https://t.me/revanzayuzar" target="_blank" class="link" id="telegram">
+                                        <div class="link-content">
+                                            <img src="assets/img/social-media/telegram.jpg" alt="Logo Telegram">
+                                            <span>Telegram</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://discord.com/users/1217922354039226368" target="_blank" class="link" id="discord">
+                                        <div class="link-content">
+                                            <img src="assets/img/social-media/discord.jpg" alt="Logo Discord">
+                                            <span>Discord</span>
+                                        </div>
+                                    </a>
+                                    <a href="mailto:revanzayuzar.github.io@gmail.com" target="_blank" class="link" id="gmail">
+                                        <div class="link-content">
+                                            <img src="assets/img/social-media/gmail.jpg" alt="Logo Gmail">
+                                            <span>Gmail</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-01" id="project">
+                            <div class="container-02">
+                                <div class="container-h1">
+                                    <h1>
+                                        <i class="fa-solid fa-gear"></i>
+                                        My Project
+                                    </h1>
+                                </div>
+                                <div class="project">
+                                    <a href="https://revanzayuzar.github.io/portofolio" target="_blank" class="link">
+                                        <div class="link-content">
+                                            <i class="fa-solid fa-gears"></i>
+                                            <span>Project-01</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://revanzayuzar.github.io/project-01" target="_blank" class="link">
+                                        <div class="link-content">
+                                            <i class="fa-solid fa-gears"></i>
+                                            <span>Project-02</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://revanzayuzar.github.io/wedding" target="_blank" class="link">
+                                        <div class="link-content">
+                                            <i class="fa-solid fa-gears"></i>
+                                            <span>Project-03</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://revanzayuzar.github.io/TugasSIB24-Revan" target="_blank" class="link">
+                                        <div class="link-content">
+                                            <i class="fa-solid fa-gears"></i>
+                                            <span>Project-04</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://revanzayuzar.web.id" target="_blank" class="link">
+                                        <div class="link-content">
+                                            <i class="fa-solid fa-gears"></i>
+                                            <span>Project-05</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://project-bnsp.revanzayuzar.web.id" target="_blank" class="link">
+                                        <div class="link-content">
+                                            <i class="fa-solid fa-gears"></i>
+                                            <span>Project-06</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-01" id="animation">
+                            <div class="container-02">
+                                <div class="container-h1">
+                                    <h1>
+                                        <i class="fa-solid fa-play"></i>
+                                        My Animation
+                                    </h1>
+                                </div>
+                                <div class="animasi">
+                                    <div class="border-animasi">
+                                        <div class="content-animasi">
+                                            <div class="ruang-animasi">
+                                                <img src="assets/img/logo/logo.png" class="animasi-01" alt="Logo Revan" title="Logo Revan">
+                                            </div>
+                                            <h2>Animasi-01 <br> (Tahap Pengembangan)</h2>
+                                            <div class="action">
+                                                <i class="fa-solid fa-play play-animasi-01" id="play-animasi-01" title="Play"></i>
+                                                <i class="fa-solid fa-stop stop-animasi-01" id="stop-animasi-01" title="Stop"></i>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="border-foto">
-                                    <div class="content-foto">
-                                        <img src="assets/img/my-photo/revan-photo-02.jpg" class="foto-02" alt="Foto Revan" title="Foto Revan">
-                                        <h2>Foto-02</h2>
-                                        <div class="action">
-                                            <i class="fa-solid fa-eye lihat-foto-02" id="lihat-foto-02" title="Lihat Foto"></i>
+                                    <div class="border-animasi">
+                                        <div class="content-animasi">
+                                            <div class="ruang-animasi">
+                                                <img src="assets/img/logo/logo.png" class="animasi-02" alt="Logo Revan" title="Logo Revan">
+                                            </div>
+                                            <h2>Animasi-02 <br> (Tahap Pengembangan)</h2>
+                                            <div class="action">
+                                                <i class="fa-solid fa-play play-animasi-02" id="play-animasi-02" title="Play"></i>
+                                                <i class="fa-solid fa-stop stop-animasi-02" id="stop-animasi-02" title="Stop"></i>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="border-foto">
-                                    <div class="content-foto">
-                                        <img src="assets/img/my-photo/revan-photo-03.jpg" class="foto-03" alt="Foto Revan" title="Foto Revan">
-                                        <h2>Foto-03</h2>
-                                        <div class="action">
-                                            <i class="fa-solid fa-eye lihat-foto-03" id="lihat-foto-03" title="Lihat Foto"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="border-foto">
-                                    <div class="content-foto">
-                                        <img src="assets/img/my-photo/revan-photo-04.jpg" class="foto-04" alt="Foto Revan" title="Foto Revan">
-                                        <h2>Foto-04</h2>
-                                        <div class="action">
-                                            <i class="fa-solid fa-eye lihat-foto-04" id="lihat-foto-04" title="Lihat Foto"></i>
+                                    <div class="border-animasi">
+                                        <div class="content-animasi">
+                                            <div class="ruang-animasi">
+                                                <img src="assets/img/logo/logo.png" class="animasi-03" alt="Logo Revan" title="Logo Revan">
+                                            </div>
+                                            <h2>Animasi-03 <br> (Tahap Pengembangan)</h2>
+                                            <div class="action">
+                                                <i class="fa-solid fa-play play-animasi-03" id="play-animasi-03" title="Play"></i>
+                                                <i class="fa-solid fa-stop stop-animasi-03" id="stop-animasi-03" title="Stop"></i>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="container-01" id="give-support">
-                        <div class="container-02">
-                            <div class="container-h1">
-                                <h1>Give Support</h1>
-                            </div>
-                            <div class="text">
-                                <h2>Dukung Pengembangan Website Ini</h2>
-                                <p>Kontribusi Anda memiliki peran penting dalam meningkatkan kualitas website ini serta mendukung berbagai kebutuhan pengembangannya di masa depan. Dengan dukungan Anda, saya dapat terus menghadirkan konten yang lebih baik dan inovatif.</p>
-                                <p>Jika Anda berkenan, silakan klik tombol di bawah ini untuk memberikan donasi atau sekadar berbagi secangkir kopi sebagai bentuk apresiasi. Setiap dukungan, sekecil apa pun, sangat berarti bagi saya.</p>
-                                <p>Terima kasih atas kebaikan dan dukungan Anda. Salam hangat!</p>
-                                <div class="donasi">
-                                    <a href="#dana"><span>Donasi Sekarang</span></a>
-                                    <a href="#dana"><span>Traktir Kopi</span></a>
+                        <div class="container-01" id="photo">
+                            <div class="container-02">
+                                <div class="container-h1">
+                                    <h1>
+                                        <i class="fa-solid fa-image"></i>
+                                        My Photo
+                                    </h1>
                                 </div>
-                                <div class="dana dana-hidden" id="dana">
-                                    <h1>Kirim Donasi Ke:</h1>
-                                    <img src="assets/img/support/dana.jpg" alt="Logo Dana">
-                                    <p>Dana</p>
-                                    <div class="dana-info">
-                                        <span id="nomor-dana">089623252659</span>
-                                        <span>M. Revanza Yuzar</span>
+                                <div class="foto">
+                                    <div class="border-foto">
+                                        <div class="content-foto">
+                                            <img src="assets/img/my-photo/revan-photo-01.jpg" class="foto-01" alt="Foto Revan" title="Foto Revan">
+                                            <h2>Foto-01</h2>
+                                            <div class="action">
+                                                <i class="fa-solid fa-eye lihat-foto-01" id="lihat-foto-01" title="Lihat Foto"></i>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="konfirmasi">
-                                        <span id="salin-nomor-dana">Salin Nomor</span>
-                                        <a href="#give-support" id="batalkan-donasi">Batalkan</a>
+                                    <div class="border-foto">
+                                        <div class="content-foto">
+                                            <img src="assets/img/my-photo/revan-photo-02.jpg" class="foto-02" alt="Foto Revan" title="Foto Revan">
+                                            <h2>Foto-02</h2>
+                                            <div class="action">
+                                                <i class="fa-solid fa-eye lihat-foto-02" id="lihat-foto-02" title="Lihat Foto"></i>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <span class="berhasil-salin berhasil-salin-hidden">Nomor berhasil disalin!</span>
+                                    <div class="border-foto">
+                                        <div class="content-foto">
+                                            <img src="assets/img/my-photo/revan-photo-03.jpg" class="foto-03" alt="Foto Revan" title="Foto Revan">
+                                            <h2>Foto-03</h2>
+                                            <div class="action">
+                                                <i class="fa-solid fa-eye lihat-foto-03" id="lihat-foto-03" title="Lihat Foto"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-foto">
+                                        <div class="content-foto">
+                                            <img src="assets/img/my-photo/revan-photo-04.jpg" class="foto-04" alt="Foto Revan" title="Foto Revan">
+                                            <h2>Foto-04</h2>
+                                            <div class="action">
+                                                <i class="fa-solid fa-eye lihat-foto-04" id="lihat-foto-04" title="Lihat Foto"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-01" id="give-support">
+                            <div class="container-02">
+                                <div class="container-h1">
+                                    <h1>
+                                        <i class="fa-solid fa-gift"></i>
+                                        Give Support
+                                    </h1>
+                                </div>
+                                <div class="text">
+                                    <h2>Dukung Pengembangan Website Ini</h2>
+                                    <p>Kontribusi Anda memiliki peran penting dalam meningkatkan kualitas website ini serta mendukung berbagai kebutuhan pengembangannya di masa depan. Dengan dukungan Anda, saya dapat terus menghadirkan konten yang lebih baik dan inovatif.</p>
+                                    <p>Jika Anda berkenan, silakan klik tombol di bawah ini untuk memberikan donasi atau sekadar berbagi secangkir kopi sebagai bentuk apresiasi. Setiap dukungan, sekecil apa pun, sangat berarti bagi saya.</p>
+                                    <p>Terima kasih atas kebaikan dan dukungan Anda. Salam hangat!</p>
+                                    <div class="donasi">
+                                        <a href="#dana"><span>Donasi Sekarang</span></a>
+                                        <a href="#dana"><span>Traktir Kopi</span></a>
+                                    </div>
+                                    <div class="dana dana-hidden" id="dana">
+                                        <h1>Kirim Donasi / Traktir Kopi Ke:</h1>
+                                        <img src="assets/img/support/dana.jpg" alt="Logo Dana">
+                                        <p>Dana</p>
+                                        <div class="dana-info">
+                                            <span id="nomor-dana">089623252659</span>
+                                            <span>M. Revanza Yuzar</span>
+                                        </div>
+                                        <div class="konfirmasi">
+                                            <span id="salin-nomor-dana">Salin Nomor</span>
+                                            <a href="#give-support" id="batalkan-donasi">Batalkan</a>
+                                        </div>
+                                        <span class="berhasil-salin berhasil-salin-hidden">Nomor berhasil disalin!</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </main>
 
             <footer id="footer">
                 <div class="footer">
                     <div class="top">
                         <h1>Terima Kasih</h1>
-                        <p>"Terima kasih telah mengunjungi website saya! Saya sangat menghargai waktu dan perhatian Anda. Saya berharap dapat berkolaborasi dan bekerja sama dengan Anda dalam proyek-proyek menarik di masa depan. Mari bersama-sama menciptakan sesuatu yang luar biasa dan membawa inovasi ke dunia digital!"</p>
+                        <p>Terima kasih telah mengunjungi website saya! Saya sangat menghargai waktu dan perhatian Anda. Saya berharap dapat berkolaborasi dan bekerja sama dengan Anda dalam proyek-proyek menarik di masa depan. Mari bersama-sama menciptakan sesuatu yang luar biasa dan membawa inovasi ke dunia digital!</p>
                         <h2>Kata-Kata Hari Ini</h2>
                         <p>"Jangan pernah ragu untuk mencoba, karena setiap langkah yang kamu ambil adalah pintu yang membuka jalan menuju keberhasilan. Setiap usaha, sekecil apa pun, membawa kamu lebih dekat ke impianmu. Namun, yang perlu ditakuti bukanlah kegagalan, melainkan tidak pernah mencoba sama sekali—karena dengan itu, kamu sendiri yang menutup peluang untuk sukses. Beranilah untuk melangkah, berani berkembang!"</p>
                         <a href="https://revanzayuzar.github.io/portofolio" target="_blank">Portofolio</a>
@@ -431,28 +539,319 @@
                         <a href="https://www.tiktok.com/@revanzayuzar" target="_blank"><i class="fa-brands fa-tiktok" alt="TikTok" title="TikTok"></i></a>
                         <a href="https://www.github.com/revanzayuzar" target="_blank"><i class="fa-brands fa-github" alt="GitHub" title="GitHub"></i></a>
                         <p>
-                            <a href="mailto:revanzayuzar.github.io@gmail.com" target="_blank">revanzayuzar.github.io@gmail.com</a>
+                            <a href="mailto:revanzayuzar.github.io@gmail.com" target="_blank" title="Email">revanzayuzar.github.io@gmail.com</a>
                         </p>
                     </div>
                     <div class="bottom">
                         <img src="assets/img/logo/logo.png" alt="Logo Revan">
                         <div class="end">
-                            <p id="versi">Versi 2.0.0 "New Style"</p>
+                            <p id="versi">Versi 2.1.1 "New Style"</p>
                             <p id="desainer">Design by Revan</p>
                             <p id="copyright">Copyright © 2023 - 2025 <br> M. Revanza Yuzar</p>
                         </div>
                     </div>
                 </div>
             </footer>
-        </main>
+        </section>
 
-        <section class="sidebar-content" id="profile">
+        <!-- Menu Sampingan | Home | Comment -->
+        <section class="sidebar-content" id="comment">
             <div class="sidebar-content-02">
                 <div class="sidebar-content-header">
-                    <h1>Profil Pemilik</h1>
+                    <h1>
+                        <i class="fa-solid fa-comment-dots"></i>
+                        Komentar
+                    </h1>
                 </div>
-                <img src="assets/img/me/revan-02.jpg" alt="Foto Revan" class="profile-img" title="Foto Revan">
-                <div class="profile-info">
+                <iframe class="comment-form" src="https://docs.google.com/forms/d/e/1FAIpQLSeUkIzSp1x4J5ral6AE2pKEXkO0MujoOLibRbK10jD7KCgP9A/viewform?embedded=true" width="640" height="1588" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
+                <div class="sidebar-content-footer">
+                    <p>Copyright © 2023 - 2025 <br> M. Revanza Yuzar</p>
+                </div>
+                <a href="#beranda" class="sidebar-back" id="comment-back">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+        </section>
+        <!-- End Menu Sampingan | Home | Comment -->
+
+        <!-- Menu Sampingan | Home | About -->
+        <section class="sidebar-content" id="about">
+            <div class="sidebar-content-02">
+                <div class="sidebar-content-header">
+                    <h1>
+                        <i class="fa-solid fa-circle-info"></i>
+                        Tentang Website
+                    </h1>
+                </div>
+                <img src="assets/img/logo/logo-revan.jpg" alt="Logo Revan" class="about-img" title="Logo Revan">
+                <div class="table-info">
+                    <div class="item">
+                        <span class="name">Judul Website:</span>
+                        <span class="name-info">REVAN</span>
+                    </div>
+                    <div class="item">
+                        <span class="name">Pemilik:</span>
+                        <span class="name-info">M. Revanza Yuzar</span>
+                    </div>
+                    <div class="item">
+                        <span class="name">Domain:</span>
+                        <span class="name-info">revanzayuzar.github.io</span>
+                    </div>
+                    <div class="item">
+                        <span class="name">Link:</span>
+                        <span class="name-info">https://revanzayuzar.github.io</span>
+                    </div>
+                    <div class="item">
+                        <span class="name">Tahun Pembuatan:</span>
+                        <span class="name-info">2023</span>
+                    </div>
+                    <div class="item">
+                        <span class="name">Terakhir Diupdate:</span>
+                        <span class="name-info">Maret 2025</span>
+                    </div>
+                    <div class="item">
+                        <span class="name">Versi:</span>
+                        <span class="name-info">Versi 2.1.1 "New Style"</span>
+                    </div>
+                    <div class="item">
+                        <span class="name">Versi Sebelumnya:</span>
+                        <a href="https://revanzayuzar.github.io/old-website-02" target="_blank" class="name-info">https://revanzayuzar.github.io/old-website-02</a>
+                    </div>
+                </div>
+                <div class="sidebar-content-footer">
+                    <p>Copyright © 2023 - 2025 <br> M. Revanza Yuzar</p>
+                </div>
+                <a href="#beranda" class="sidebar-back" id="about-back">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+        </section>
+        <!-- End Menu Sampingan | Home | About -->
+        <!-- End Menu Utama | Home -->
+
+        <!-- Menu Utama | Content -->
+        <section class="main-menu-konten" id="konten">
+            <div class="main-menu-header">
+                <a href="#konten">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Konten
+                </a>
+            </div>
+
+            <div class="konten">
+                <div class="teks-berjalan">
+                    <div>
+                        <span>Assalamualaikum Wr. Wb., Selamat datang di website REVAN - revanzayuzar.github.io</span>
+                        <span>Bagaimana kabarmu hari ini? Semoga kamu dalam keadaan sehat dan baik-baik saja</span>
+                        <span>Nantikan terus konten-konten terbaru dari website ini!</span>
+                        <span>Terima kasih atas kunjungannya hari ini</span>
+                        <span>Semoga harimu menyenangkan! -- M. Revanza Yuzar</span>
+                    </div>
+                </div>
+
+                <div class="search-container" id="search">
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="search-input" placeholder="Cari konten...">
+                    </div>
+                </div>
+
+                <div class="content">
+                    <!-- Konten 01 -->
+                    <div class="item">
+                        <div class="title">
+                            <h1>
+                                <i class="fa-solid fa-link"></i>
+                                Judul Konten 01 (Segera Hadir)
+                            </h1>
+                        </div>
+                        <div class="snippet">
+                            <p>Deskripsi singkat dari konten 01. Konten 01 segera hadir. Nantikan terus yaa..</p>
+                        </div>
+                        <div class="link">
+                            <a href="#search">
+                                <i class="fa-solid fa-eye"></i>
+                                Selengkapnya
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End Konten 01 -->
+
+                    <!-- Konten 02 -->
+                    <div class="item">
+                        <div class="title">
+                            <h1>
+                                <i class="fa-solid fa-link"></i>
+                                Judul Konten 02 (Segera Hadir)
+                            </h1>
+                        </div>
+                        <div class="snippet">
+                            <p>Deskripsi singkat dari konten 02. Konten 02 segera hadir. Nantikan terus yaa..</p>
+                        </div>
+                        <div class="link">
+                            <a href="#search">
+                                <i class="fa-solid fa-eye"></i>
+                                Selengkapnya
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End Konten 02 -->
+
+                    <!-- Konten 03 -->
+                    <div class="item">
+                        <div class="title">
+                            <h1>
+                                <i class="fa-solid fa-link"></i>
+                                Judul Konten 03 (Segera Hadir)
+                            </h1>
+                        </div>
+                        <div class="snippet">
+                            <p>Deskripsi singkat dari konten 03. Konten 03 segera hadir. Nantikan terus yaa..</p>
+                        </div>
+                        <div class="link">
+                            <a href="#search">
+                                <i class="fa-solid fa-eye"></i>
+                                Selengkapnya
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End Konten 03 -->
+
+                    <div class="no-result">
+                        <i class="fa-regular fa-face-frown"></i>
+                        <span>Maaf, konten yang anda cari tidak tersedia.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Menu Utama | Content -->
+
+        <!-- Menu Utama | Notification -->
+        <section class="main-menu-notifikasi" id="notifikasi">
+            <div class="main-menu-header">
+                <a href="#notifikasi">
+                    <i class="fa-solid fa-bell"></i>
+                    Notifikasi
+                </a>
+            </div>
+
+            <div class="notifikasi">
+                <!-- Notifikasi 01 -->
+                <div class="item">
+                    <div class="title">
+                        <h1>
+                            <i class="fa-solid fa-bell"></i>
+                            Pembaruan Website: Versi 2.1.1 "New Style"
+                        </h1>
+                    </div>
+                    <div class="snippet">
+                        <p>Pembaruan website REVAN dari versi 2.0.0 ke versi 2.1.1 "New Style"</p>
+                    </div>
+                    <div class="list list-notifikasi-02" id="list-notifikasi-02">
+                        <p>Apa saja yang baru??</p>
+                        <ul>
+                            <li>Tampilan baru</li>
+                            <li>Menu utama telah dibagi menjadi 4 bagian: Home, Content, Notification, dan Profile.</li>
+                            <li>Pembaruan pada beberapa bagian di halaman "Home"</li>
+                            <li>Pembaruan pada beberapa bagian di halaman "Profile"</li>
+                            <li>Pembaruan pada beberapa tata letak</li>
+                            <li>Pembaruan pada beberapa warna</li>
+                            <li>Pembaruan pada beberapa animasi</li>
+                            <li>Penambahan halaman "Content" yang menampilkan berbagai konten yang akan diposting di website ini</li>
+                            <li>Penambahan halaman "Notification" yang menampilkan berbagai notifikasi dari website ini</li>
+                            <li>Fitur teks berjalan telah dipindahkan ke halaman Content</li>
+                            <li>Penambahan fitur "Pencarian" di halaman Content agar memudahkan pengguna dalam mencari konten</li>
+                            <li>Penambahan "Tombol Aksi" pada setiap item notifikasi di halaman notifikasi yang dapat menampilkan notifikasi secara lengkap dan menutupnya kembali</li>
+                            <li>Penambahan beberapa konten baru di halaman Profile</li>
+                            <li>Penambahan "Notifikasi" setiap pertama kali membuka website ini</li>
+                        </ul>
+                    </div>
+                    <div class="button-container">
+                        <span class="buka-notifikasi-02" id="buka-notifikasi-02">
+                            Selengkapnya
+                            <i class="fa-solid fa-caret-down"></i>
+                        </span>
+                        <span class="tutup-notifikasi-02" id="tutup-notifikasi-02">
+                            Tutup
+                            <i class="fa-solid fa-caret-up"></i>
+                        </span>
+                    </div>
+                </div>
+                <!-- End Notifikasi 01 -->
+
+                <!-- Notifikasi 02 -->
+                <div class="item">
+                    <div class="title">
+                        <h1>
+                            <i class="fa-solid fa-bell"></i>
+                            Pembaruan Website: Versi 2.0.0 "New Style"
+                        </h1>
+                    </div>
+                    <div class="snippet">
+                        <p>Pembaruan website REVAN dari versi 1 ke versi 2.0.0 "New Style"</p>
+                    </div>
+                    <div class="list list-notifikasi-01" id="list-notifikasi-01">
+                        <p>Apa saja yang baru??</p>
+                        <ul>
+                            <li>Tampilan & gaya baru</li>
+                            <li>Pembaruan besar ke versi 2.0.0 "New Style"</li>
+                            <li>Pembaruan pada beberapa tata letak</li>
+                            <li>Pembaruan pada warna website</li>
+                            <li>Pembaruan pada beberapa animasi</li>
+                            <li>Penambahan halaman "Profile" yang menampilkan berbagai informasi tentang profil pemilik website</li>
+                            <li>Penambahan fitur "Comment" agar pengguna dapat memberikan masukan dan saran</li>
+                            <li>Penambahan halaman "About" yang menampilkan berbagai informasi tentang website ini</li>
+                            <li>Penambahan fitur "Restart" yang dapat digunakan untuk memulai ulang website</li>
+                            <li>Penambahan fitur "Play" dan "Stop" pada menu Animation</li>
+                            <li>Penambahan fitur "Lihat Foto" pada menu Photo</li>
+                            <li>Penambahan fitur teks berjalan untuk memaparkan beberapa informasi singkat seputar website ini</li>
+                            <li>Penambahan beberapa konten baru</li>
+                            <li>Penambahan beberapa animasi baru</li>
+                            <li>Penambahan beberapa fitur baru lainnya</li>
+                            <li>Website REVAN kini dapat dicari menggunakan mesin pencari seperti Google atau mesin pencari lainnya dengan beberapa kata kunci, seperti "M. Revanza Yuzar"</li>
+                        </ul>
+                    </div>
+                    <div class="button-container">
+                        <span class="buka-notifikasi-01" id="buka-notifikasi-01">
+                            Selengkapnya
+                            <i class="fa-solid fa-caret-down"></i>
+                        </span>
+                        <span class="tutup-notifikasi-01" id="tutup-notifikasi-01">
+                            Tutup
+                            <i class="fa-solid fa-caret-up"></i>
+                        </span>
+                    </div>
+                </div>
+                <!-- End Notifikasi 02 -->
+            </div>
+        </section>
+        <!-- End Menu Utama | Notification -->
+
+        <!-- Menu Utama | Profile -->
+        <section class="main-menu-profil" id="profil">
+            <div class="main-menu-header">
+                <a href="#profil">
+                    <i class="fa-solid fa-user"></i>
+                    Profil
+                </a>
+            </div>
+            
+            <div class="profil">
+                <img src="assets/img/me/revan-03.jpg" alt="Foto Revan" class="profil-img" title="Foto Revan">
+
+                <div class="profil-about">
+                    <h1>
+                        <i class="fa-solid fa-address-card"></i>
+                        Tentang Saya
+                    </h1>
+                    <p>Perkenalkan, saya M. Revanza Yuzar, biasa dipanggil Revan. Saya berasal dari Sigli dan saat ini menetap di Kabupaten Pidie Jaya, Provinsi Aceh, Indonesia. Saya adalah pribadi yang penuh semangat, selalu haus akan pengetahuan dan pengalaman baru, terutama di dunia teknologi.</p>
+                    <p>Saat ini, saya menempuh pendidikan di Universitas Jabal Ghafur, tepatnya di Fakultas Teknik jurusan Teknik Informatika (S1). Saya percaya bahwa pendidikan merupakan fondasi utama dalam menggapai cita-cita dan berkontribusi pada perkembangan teknologi masa depan.</p>
+                    <p>Saya memiliki minat dan keahlian di bidang pengembangan website, khususnya sebagai Front-End Web Developer. Selain itu, saya juga terbiasa mengoperasikan Microsoft Office, melakukan editing foto dan video sederhana, serta mendesain tampilan dan logo. Meskipun saya masih dalam tahap pemula, semangat untuk belajar membuat saya terus mengasah kemampuan, mulai dari bahasa pemrograman seperti HTML, CSS, JavaScript, dan PHP, hingga framework seperti Bootstrap dan Laravel.</p>
+                    <p>Di luar dunia akademik, saya menikmati berbagai aktivitas kreatif. Hobi saya meliputi pengembangan website, editing foto dan video, mendengarkan musik, bermain game, bermain piano, menonton film, serta memelihara ikan hias. Kegiatan-kegiatan ini tidak hanya menjadi sumber hiburan, tetapi juga memberikan inspirasi untuk terus berinovasi dan berpikir kreatif.</p>
+                    <p>Dengan latar belakang pendidikan dan keahlian yang saya miliki, saya bertekad untuk terus tumbuh dan berinovasi di bidang teknologi. Saya yakin setiap pengalaman, baik dalam belajar maupun berkarya, merupakan langkah penting menuju kesuksesan. Jika Anda tertarik untuk mengenal lebih jauh perjalanan dan karya saya, silakan kunjungi website saya di revanzayuzar.github.io atau hubungi saya melalui email. Terima kasih telah meluangkan waktu untuk mengenal saya.</p>
+                </div>
+
+                <div class="profil-info">
                     <div class="item">
                         <span class="name">Nama Lengkap:</span>
                         <span class="name-info">M. Revanza Yuzar</span>
@@ -499,22 +898,28 @@
                     </div>
                     <div class="item">
                         <span class="name">Skill/Keahlian:</span>
-                        <span class="name-info">- Front-End Web Developer</span>
-                        <span class="name-info">- Mampu Mengoperasikan Microsoft Office</span>
-                        <span class="name-info">- Menguasai Editing Foto & Video Sederhana</span>
-                        <span class="name-info">- Mampu Mendesain Suatu Tampilan & Logo Sederhana</span>
+                        <ul>
+                            <li class="name-info">Front-End Web Developer</li>
+                            <li class="name-info">Mampu Mengoperasikan Microsoft Office</li>
+                            <li class="name-info">Menguasai Editing Foto & Video Sederhana</li>
+                            <li class="name-info">Mampu Mendesain Suatu Tampilan & Logo Sederhana</li>
+                        </ul>
                     </div>
                     <div class="item">
                         <span class="name">Bahasa Pemrograman:</span>
-                        <span class="name-info">- HTML</span>
-                        <span class="name-info">- CSS</span>
-                        <span class="name-info">- JavaScript</span>
-                        <span class="name-info">- PHP</span>
+                        <ul>
+                            <li class="name-info">HTML</li>
+                            <li class="name-info">CSS</li>
+                            <li class="name-info">JavaScript</li>
+                            <li class="name-info">PHP</li>
+                        </ul>
                     </div>
                     <div class="item">
                         <span class="name">Framework:</span>
-                        <span class="name-info">- Bootstrap</span>
-                        <span class="name-info">- Laravel</span>
+                        <ul>
+                            <li class="name-info">Bootstrap</li>
+                            <li class="name-info">Laravel</li>
+                        </ul>
                     </div>
                     <div class="item">
                         <span class="name">Tingkat Keahlian:</span>
@@ -530,129 +935,67 @@
                     </div>
                     <div class="item">
                         <span class="name">Hobi:</span>
-                        <span class="name-info">- Melakukan Pengembangan Website</span>
-                        <span class="name-info">- Melakukan Editing Foto & Video Sederhana</span>
-                        <span class="name-info">- Mendengarkan Musik</span>
-                        <span class="name-info">- Bermain Games</span>
-                        <span class="name-info">- Bermain Piano</span>
-                        <span class="name-info">- Menonton Film</span>
-                        <span class="name-info">- Memelihara Ikan Hias</span>
+                        <ul>
+                            <li class="name-info">Melakukan Pengembangan Website</li>
+                            <li class="name-info">Melakukan Editing Foto & Video Sederhana</li>
+                            <li class="name-info">Mendengarkan Musik</li>
+                            <li class="name-info">Bermain Games</li>
+                            <li class="name-info">Bermain Piano</li>
+                            <li class="name-info">Menonton Film</li>
+                            <li class="name-info">Memelihara Ikan Hias</li>
+                        </ul>
                     </div>
                     <div class="item">
                         <span class="name">Konten Favorit:</span>
-                        <span class="name-info">- Pengembangan Website</span>
-                        <span class="name-info">- Perkembangan AI</span>
-                        <span class="name-info">- Editing</span>
-                        <span class="name-info">- Desain</span>
-                        <span class="name-info">- Musik</span>
-                        <span class="name-info">- Games</span>
-                        <span class="name-info">- Piano</span>
-                        <span class="name-info">- Orkestra</span>
-                        <span class="name-info">- Film Survival, Action, & Horror</span>
-                        <span class="name-info">- Akuarium</span>
-                        <span class="name-info">- Ikan Hias</span>
-                        <span class="name-info">- Ikan Predator</span>
-                        <span class="name-info">- Teknologi & Digital</span>
-                        <span class="name-info">- Edukasi & Pendidikan</span>
-                        <span class="name-info">- Fakta Dunia</span>
-                        <span class="name-info">- Alam</span>
-                        <span class="name-info">- Hewan</span>
-                        <span class="name-info">- Lautan</span>
-                        <span class="name-info">- Tata Surya</span>
-                        <span class="name-info">- Dinosaurus</span>
-                        <span class="name-info">- Sejarah</span>
-                        <span class="name-info">- Hubungan Internasional</span>
-                        <span class="name-info">- Militer Dunia</span>
-                        <span class="name-info">- Meme</span>
-                        <span class="name-info">- Motivasi</span>
-                        <span class="name-info">- Keuangan</span>
-                        <span class="name-info">- Bisnis</span>
-                        <span class="name-info">- Investasi</span>
-                        <span class="name-info">- Jajanan & Kuliner</span>
-                        <span class="name-info">- Mukbang</span>
-                        <span class="name-info">- Memasak</span>
-                        <span class="name-info">- Style & Fashion</span>
-                        <span class="name-info">- Gaya Hidup</span>
-                        <span class="name-info">- Asah Otak</span>
-                        <span class="name-info">- Dekorasi</span>
+                        <ul>
+                            <li class="name-info">Pengembangan Website</li>
+                            <li class="name-info">Perkembangan AI</li>
+                            <li class="name-info">Editing</li>
+                            <li class="name-info">Desain</li>
+                            <li class="name-info">Musik</li>
+                            <li class="name-info">Games</li>
+                            <li class="name-info">Piano</li>
+                            <li class="name-info">Orkestra</li>
+                            <li class="name-info">Film Survival, Action, & Horror</li>
+                            <li class="name-info">Akuarium</li>
+                            <li class="name-info">Ikan Hias</li>
+                            <li class="name-info">Ikan Predator</li>
+                            <li class="name-info">Teknologi & Digital</li>
+                            <li class="name-info">Edukasi & Pendidikan</li>
+                            <li class="name-info">Fakta Dunia</li>
+                            <li class="name-info">Alam</li>
+                            <li class="name-info">Hewan</li>
+                            <li class="name-info">Dinosaurus</li>
+                            <li class="name-info">Hewan Prasejarah</li>
+                            <li class="name-info">Lautan</li>
+                            <li class="name-info">Laut Dalam</li>
+                            <li class="name-info">Tata Surya</li>
+                            <li class="name-info">Planet</li>
+                            <li class="name-info">Galaksi</li>
+                            <li class="name-info">Sejarah</li>
+                            <li class="name-info">Hubungan Internasional</li>
+                            <li class="name-info">Militer Dunia</li>
+                            <li class="name-info">Strategi</li>
+                            <li class="name-info">Meme</li>
+                            <li class="name-info">Motivasi</li>
+                            <li class="name-info">Keuangan</li>
+                            <li class="name-info">Bisnis</li>
+                            <li class="name-info">Investasi</li>
+                            <li class="name-info">Jajanan & Kuliner</li>
+                            <li class="name-info">Mukbang</li>
+                            <li class="name-info">Memasak</li>
+                            <li class="name-info">Style & Fashion</li>
+                            <li class="name-info">Gaya Hidup</li>
+                            <li class="name-info">Asah Otak</li>
+                            <li class="name-info">Dekorasi</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="sidebar-content-footer">
-                    <p>Copyright © 2023 - 2025 <br> M. Revanza Yuzar</p>
-                </div>
-                <a href="#home" class="sidebar-back" id="profile-back">
-                    <i class="fa-solid fa-caret-left"></i>
-                    Kembali
-                </a>
             </div>
         </section>
-
-        <section class="sidebar-content" id="comment">
-            <div class="sidebar-content-02">
-                <div class="sidebar-content-header">
-                    <h1>Komentar</h1>
-                </div>
-                <iframe class="comment-form" src="https://docs.google.com/forms/d/e/1FAIpQLSeUkIzSp1x4J5ral6AE2pKEXkO0MujoOLibRbK10jD7KCgP9A/viewform?embedded=true" width="640" height="1588" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
-                <div class="sidebar-content-footer">
-                    <p>Copyright © 2023 - 2025 <br> M. Revanza Yuzar</p>
-                </div>
-                <a href="#home" class="sidebar-back" id="comment-back">
-                    <i class="fa-solid fa-caret-left"></i>
-                    Kembali
-                </a>
-            </div>
-        </section>
-
-        <section class="sidebar-content" id="about">
-            <div class="sidebar-content-02">
-                <div class="sidebar-content-header">
-                    <h1>Tentang Website</h1>
-                </div>
-                <img src="assets/img/logo/logo.png" alt="Logo Revan" class="about-img" title="Logo Revan">
-                <div class="profile-info">
-                    <div class="item">
-                        <span class="name">Judul Website:</span>
-                        <span class="name-info">REVAN</span>
-                    </div>
-                    <div class="item">
-                        <span class="name">Pemilik:</span>
-                        <span class="name-info">M. Revanza Yuzar</span>
-                    </div>
-                    <div class="item">
-                        <span class="name">Domain:</span>
-                        <span class="name-info">revanzayuzar.github.io</span>
-                    </div>
-                    <div class="item">
-                        <span class="name">Link:</span>
-                        <span class="name-info">https://revanzayuzar.github.io</span>
-                    </div>
-                    <div class="item">
-                        <span class="name">Tahun Pembuatan:</span>
-                        <span class="name-info">2023</span>
-                    </div>
-                    <div class="item">
-                        <span class="name">Terakhir Diupdate:</span>
-                        <span class="name-info">Februari 2025</span>
-                    </div>
-                    <div class="item">
-                        <span class="name">Versi:</span>
-                        <span class="name-info">Versi 2.0.0 "New Style"</span>
-                    </div>
-                    <div class="item">
-                        <span class="name">Versi Sebelumnya:</span>
-                        <a href="https://revanzayuzar.github.io/old-website-02" target="_blank" class="name-info">https://revanzayuzar.github.io/old-website-02</a>
-                    </div>
-                </div>
-                <div class="sidebar-content-footer">
-                    <p>Copyright © 2023 - 2025 <br> M. Revanza Yuzar</p>
-                </div>
-                <a href="#home" class="sidebar-back" id="about-back">
-                    <i class="fa-solid fa-caret-left"></i>
-                    Kembali
-                </a>
-            </div>
-        </section>
+        <!-- End Menu Utama | Profile -->
     </div>
+    <!-- End Container Utama -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/d67c175362.js" crossorigin="anonymous"></script>

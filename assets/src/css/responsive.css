@@ -12,17 +12,16 @@
         background-color: var(--color-secondary-dark);
     }
 
-    nav .nav-link {
-        width: 45px;
-        padding: 0;
+    .nav-beranda,
+    .nav-konten,
+    .nav-notifikasi,
+    .nav-profil {
+        width: 52px;
         padding-top: 5px;
+        padding-bottom: 0;
     }
 
-    nav .nav-link i {
-        font-size: 18px;
-    }
-
-    nav .nav-link span {
+    nav a span {
         font-size: 10px;
     }
 
@@ -31,13 +30,17 @@
         height: 1850px;
     }
 
+    .profil .profil-info {
+        width: 100%;
+    }
+
 }
 
 
 
 @media (max-width: 550px) {
 
-    .sidebar-content .profile-info {
+    .sidebar-content .table-info {
         width: 92%;
     }
 
@@ -46,14 +49,13 @@
         height: 1950px;
     }
 
-}
+    .konten .search {
+        width: 90%;
+    }
 
-
-
-@media (max-width: 425px) {
-
-    nav .teks-berjalan {
-        width: 175px;
+    .notifikasi {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
 }
