@@ -16,13 +16,13 @@
     .nav-konten,
     .nav-notifikasi,
     .nav-profil {
-        width: 52px;
+        width: 58px;
         padding-top: 5px;
         padding-bottom: 0;
     }
 
     nav a span {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .sidebar-content .comment-form {

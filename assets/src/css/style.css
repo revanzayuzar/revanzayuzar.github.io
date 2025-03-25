@@ -412,7 +412,7 @@ nav {
 .nav-konten,
 .nav-notifikasi,
 .nav-profil {
-    width: 62px;
+    width: 65px;
     color: var(--color-primary-dark);
     text-align: center;
     padding-top: 7px;
@@ -434,7 +434,7 @@ nav {
 }
 
 .nav-link-active {
-    color: var(--color-primary-light);
+    color: var(--color-white);
 }
 
 nav a i {
@@ -444,7 +444,7 @@ nav a i {
 nav a span {
     display: block;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
 }
 /* End Navigasi Utama (Bawah) */
 
@@ -486,8 +486,9 @@ nav a span {
 }
 
 .main-menu-header a {
-    color: var(--color-primary-light);
-    font-size: 20px;
+    color: var(--color-white);
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .main-menu-header a:active {
@@ -542,7 +543,7 @@ header .logo:active {
 
 @keyframes active-button-menu {
     0% {
-        color: var(--color-primary-light);
+        color: var(--color-white);
     }
 
     50% {
@@ -550,7 +551,7 @@ header .logo:active {
     }
 
     100% {
-        color: var(--color-primary-light);
+        color: var(--color-white);
     }
 }
 
@@ -1459,7 +1460,7 @@ header .logo:active {
 
 .container-02 .dana .berhasil-salin {
     position: fixed;
-    bottom: 65px;
+    top: 75px;
     color: var(--color-white);
     background-color: var(--color-success);
     padding: 5px 10px;
@@ -1469,7 +1470,7 @@ header .logo:active {
 }
 
 .container-02 .dana .berhasil-salin-hidden {
-    transform: translateY(110px) scale(0);
+    transform: translateY(-55px) scale(0);
     transition: transform 0.25s ease-out;
 }
 
@@ -1635,7 +1636,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 10%;
-    height: 42px;
+    height: 41px;
     color: var(--color-white);
     background-color: var(--color-danger);
     font-size: 20px;
@@ -1873,7 +1874,9 @@ footer {
 }
 
 .list-notifikasi-01,
-.list-notifikasi-02 {
+.list-notifikasi-02,
+.list-notifikasi-03,
+.list-notifikasi-04 {
     height: 0;
     overflow: hidden;
     opacity: 0;
@@ -1911,7 +1914,11 @@ footer {
 .buka-notifikasi-01,
 .tutup-notifikasi-01,
 .buka-notifikasi-02,
-.tutup-notifikasi-02 {
+.tutup-notifikasi-02,
+.buka-notifikasi-03,
+.tutup-notifikasi-03,
+.buka-notifikasi-04,
+.tutup-notifikasi-04 {
     width: 200px;
     color: var(--color-primary-light);
     background-color: var(--color-secondary);
@@ -1926,19 +1933,29 @@ footer {
 .buka-notifikasi-01:hover,
 .tutup-notifikasi-01:hover,
 .buka-notifikasi-02:hover,
-.tutup-notifikasi-02:hover {
+.tutup-notifikasi-02:hover,
+.buka-notifikasi-03:hover,
+.tutup-notifikasi-03:hover,
+.buka-notifikasi-04:hover,
+.tutup-notifikasi-04:hover {
     background-color: var(--color-secondary-dark);
 }
 
 .buka-notifikasi-01:active,
 .tutup-notifikasi-01:active,
 .buka-notifikasi-02:active,
-.tutup-notifikasi-02:active {
+.tutup-notifikasi-02:active,
+.buka-notifikasi-03:active,
+.tutup-notifikasi-03:active,
+.buka-notifikasi-04:active,
+.tutup-notifikasi-04:active {
     animation: var(--animasi-click);
 }
 
 .tutup-notifikasi-01,
-.tutup-notifikasi-02 {
+.tutup-notifikasi-02,
+.tutup-notifikasi-03,
+.tutup-notifikasi-04 {
     display: none;
 }
 

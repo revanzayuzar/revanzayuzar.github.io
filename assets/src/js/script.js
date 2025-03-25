@@ -507,3 +507,51 @@ document.getElementById("tutup-notifikasi-02").addEventListener("click", functio
     tutupNotifikasi01.classList.remove("active-button-aksi-notifikasi");
 });
 // End Untuk Menyembunyikan Notifikasi 02 Lengkap
+
+
+
+// Untuk Menampilkan Notifikasi 03 Lengkap
+document.getElementById("buka-notifikasi-03").addEventListener("click", function() {
+    let listNotifikasi01 = document.querySelector(".list-notifikasi-03");
+    listNotifikasi01.classList.add("active-list-notifikasi");
+    let bukaNotifikasi01 = document.querySelector(".buka-notifikasi-03");
+    bukaNotifikasi01.classList.add("hidden-button-aksi-notifikasi");
+    let tutupNotifikasi01 = document.querySelector(".tutup-notifikasi-03");
+    tutupNotifikasi01.classList.add("active-button-aksi-notifikasi");
+});
+// End Untuk Menampilkan Notifikasi 03 Lengkap
+
+// Untuk Menyembunyikan Notifikasi 03 Lengkap
+document.getElementById("tutup-notifikasi-03").addEventListener("click", function() {
+    let listNotifikasi01 = document.querySelector(".list-notifikasi-03");
+    listNotifikasi01.classList.remove("active-list-notifikasi");
+    let bukaNotifikasi01 = document.querySelector(".buka-notifikasi-03");
+    bukaNotifikasi01.classList.remove("hidden-button-aksi-notifikasi");
+    let tutupNotifikasi01 = document.querySelector(".tutup-notifikasi-03");
+    tutupNotifikasi01.classList.remove("active-button-aksi-notifikasi");
+});
+// End Untuk Menyembunyikan Notifikasi 03 Lengkap
+
+
+
+// Untuk Menampilkan Notifikasi 04 Lengkap
+document.getElementById("buka-notifikasi-04").addEventListener("click", function() {
+    let listNotifikasi01 = document.querySelector(".list-notifikasi-04");
+    listNotifikasi01.classList.add("active-list-notifikasi");
+    let bukaNotifikasi01 = document.querySelector(".buka-notifikasi-04");
+    bukaNotifikasi01.classList.add("hidden-button-aksi-notifikasi");
+    let tutupNotifikasi01 = document.querySelector(".tutup-notifikasi-04");
+    tutupNotifikasi01.classList.add("active-button-aksi-notifikasi");
+});
+// End Untuk Menampilkan Notifikasi 04 Lengkap
+
+// Untuk Menyembunyikan Notifikasi 04 Lengkap
+document.getElementById("tutup-notifikasi-04").addEventListener("click", function() {
+    let listNotifikasi01 = document.querySelector(".list-notifikasi-04");
+    listNotifikasi01.classList.remove("active-list-notifikasi");
+    let bukaNotifikasi01 = document.querySelector(".buka-notifikasi-04");
+    bukaNotifikasi01.classList.remove("hidden-button-aksi-notifikasi");
+    let tutupNotifikasi01 = document.querySelector(".tutup-notifikasi-04");
+    tutupNotifikasi01.classList.remove("active-button-aksi-notifikasi");
+});
+// End Untuk Menyembunyikan Notifikasi 04 Lengkap
